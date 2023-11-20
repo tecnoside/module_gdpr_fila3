@@ -58,6 +58,7 @@ abstract class BaseModel extends Model
         'verified_at' => 'datetime',
     ];
 
+<<<<<<< HEAD
      /**
      * @var array<string>
      */
@@ -66,6 +67,11 @@ abstract class BaseModel extends Model
      *
      * @var array
      */
+=======
+    /**
+     * @var array<string>
+     */
+>>>>>>> d7a3f172 (first)
     protected $appends = [];
 
     /**

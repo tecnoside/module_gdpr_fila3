@@ -10,6 +10,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 /**
  * Modules\Gdpr\Models\Consent
  *
+<<<<<<< HEAD
  * @property string                              $id
  * @property string                              $treatment_id
  * @property string                              $subject_id
@@ -34,6 +35,13 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   query()
  *
+=======
+ * @property-read \Modules\Gdpr\Models\Treatment|null $treatment
+ * @method static \Modules\Gdpr\Database\Factories\ConsentFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent query()
+>>>>>>> d7a3f172 (first)
  * @mixin \Eloquent
  */
 class Consent extends BaseModel
@@ -48,6 +56,7 @@ class Consent extends BaseModel
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function treatment(): BelongsTo
 =======
     public function treatment():BelongsTo
@@ -55,6 +64,9 @@ class Consent extends BaseModel
 =======
     public function treatment(): BelongsTo
 >>>>>>> 18b67f85 (up)
+=======
+    public function treatment(): BelongsTo
+>>>>>>> d7a3f172 (first)
     {
         return $this->belongsTo(Treatment::class);
     }

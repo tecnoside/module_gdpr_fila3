@@ -7,6 +7,9 @@ namespace Modules\Gdpr\Models;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d7a3f172 (first)
 /**
  * Modules\Gdpr\Models\Treatment
  *
@@ -16,8 +19,11 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment query()
  * @mixin \Eloquent
  */
+<<<<<<< HEAD
 =======
 >>>>>>> d58ad792 (up)
+=======
+>>>>>>> d7a3f172 (first)
 class Treatment extends BaseModel
 {
     protected $fillable = [''];
