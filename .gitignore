@@ -1,0 +1,6 @@
+.git-blame-ignore-revs
+/vendor
+/build
+*.lock
+.git-rewrite
+*.phar
