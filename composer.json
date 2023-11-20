@@ -38,7 +38,7 @@
         "symplify/phpstan-rules": "^12.4",
         "vimeo/psalm": "^5.15"
     },
-    "repositories": [ 
+    "repositories": [
         {
         "type": "path",
         "url": "../Xot"
