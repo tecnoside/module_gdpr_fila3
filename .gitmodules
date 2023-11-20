@@ -1,7 +1,4 @@
 #[submodule "docs"]
 #	path = docs
 #	url = https://github.com/laraxot/doc_gdpr.git
-<<<<<<< HEAD
-=======
 #   url = git@github.com:laraxot/doc_gdpr.git
->>>>>>> d7a3f172 (first)

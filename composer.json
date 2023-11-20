@@ -35,170 +35,23 @@
         "rector/rector": "^0.18.6",
         "symplify/phpstan-rules": "^12.4",
         "thecodingmachine/phpstan-safe-rule": "^1.2",
-<<<<<<< HEAD
         "symplify/phpstan-rules": "^12.4",
-=======
->>>>>>> d7a3f172 (first)
         "vimeo/psalm": "^5.15"
     },
-    "repositories": [ {
+    "repositories": [ 
+        {
         "type": "path",
         "url": "../Xot"
-    },
-    {
+        },
+        {
         "type": "path",
         "url": "../Tenant"
-    },
-    {
+        },
+        {
         "type": "path",
         "url": "../UI"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 3ac41c28 (rebase)
-=======
->>>>>>> 27a46981 (rebase)
-=======
->>>>>>> 0770a00b (.)
-=======
->>>>>>> 5a24a093 (rebase)
-=======
->>>>>>> d0b4488a (rebase)
-=======
->>>>>>> 90df6605 (.)
-=======
->>>>>>> d7a3f172 (first)
-    },
-    {
-        "type": "path",
-        "url": "../Tenant"
-    },
-    {
-        "type": "path",
-        "url": "../User"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-        "url": "../module_xot_fila3"
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-        "url": "../Xot"
->>>>>>> 372901a7 (.)
-=======
->>>>>>> 761e09f4 (up)
-<<<<<<< HEAD
-    },
-    {
-        "type": "path",
-        "url": "../Tenant"
-    },
-    {
-        "type": "path",
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "url": "../module_ui_fila3"
->>>>>>> 33869cd0 (up)
-<<<<<<< HEAD
->>>>>>> 36f62647 (rebase)
-=======
-=======
-        "url": "../UI"
->>>>>>> 372901a7 (.)
->>>>>>> e0b1ce19 (rebase)
-=======
-        "url": "../User"
->>>>>>> 761e09f4 (up)
-=======
-=======
-=======
-        "url": "../Xot"
->>>>>>> 372901a7 (.)
->>>>>>> 0ba8ce69 (rebase)
-=======
->>>>>>> 27a46981 (rebase)
-    },
-    {
-        "type": "path",
-        "url": "../Tenant"
-    },
-    {
-        "type": "path",
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "url": "../module_ui_fila3"
->>>>>>> 33869cd0 (up)
-<<<<<<< HEAD
->>>>>>> 36f62647 (rebase)
-<<<<<<< HEAD
->>>>>>> 3ac41c28 (rebase)
-=======
-=======
-=======
-        "url": "../UI"
->>>>>>> 372901a7 (.)
->>>>>>> e0b1ce19 (rebase)
-<<<<<<< HEAD
->>>>>>> 0ba8ce69 (rebase)
-=======
-=======
-        "url": "../User"
->>>>>>> 761e09f4 (up)
->>>>>>> 27a46981 (rebase)
-=======
->>>>>>> 0770a00b (.)
-=======
-=======
-=======
-        "url": "../module_xot_fila3"
-=======
-        "url": "../Xot"
->>>>>>> 372901a7 (.)
-=======
->>>>>>> 761e09f4 (up)
-    },
-    {
-        "type": "path",
-        "url": "../Tenant"
-    },
-    {
-        "type": "path",
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "url": "../module_ui_fila3"
->>>>>>> 33869cd0 (up)
-<<<<<<< HEAD
->>>>>>> 36f62647 (rebase)
-<<<<<<< HEAD
->>>>>>> 5a24a093 (rebase)
-=======
-=======
-=======
-        "url": "../UI"
->>>>>>> 372901a7 (.)
->>>>>>> e0b1ce19 (rebase)
-<<<<<<< HEAD
->>>>>>> d15c85ac (rebase)
-=======
-=======
-        "url": "../User"
->>>>>>> 761e09f4 (up)
->>>>>>> d0b4488a (rebase)
-=======
->>>>>>> 90df6605 (.)
-=======
->>>>>>> d7a3f172 (first)
-    }],
+        }
+    ],
     "scripts": {
         "post-autoload-dump": [
             "@php vendor/bin/testbench package:discover --ansi"
