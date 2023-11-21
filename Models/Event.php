@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Facades\Crypt;
 use Modules\Gdpr\Database\Factories\EventFactory;
+use Modules\Gdpr\Database\Factories\EventFactory;
 
 use function Safe\json_encode;
 
