@@ -4,6 +4,23 @@ declare(strict_types=1);
 
 namespace Modules\Gdpr\Models;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+use Illuminate\Database\Eloquent\Concerns\HasUuids;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+=======
+use function Safe\json_encode;
+>>>>>>> cc03aadb (up)
+use Illuminate\Support\Facades\Crypt;
+
+=======
+>>>>>>> 18b67f85 (up)
+=======
+>>>>>>> d7a3f172 (first)
+>>>>>>> 2a1a69f (.)
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Facades\Crypt;
@@ -39,7 +56,23 @@ class Event extends BaseModel
         'payload',
     ];
 
+<<<<<<< HEAD
     public function consent(): BelongsTo
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    public function consent(): BelongsTo
+=======
+    public function consent():BelongsTo
+>>>>>>> cc03aadb (up)
+=======
+    public function consent(): BelongsTo
+>>>>>>> 18b67f85 (up)
+=======
+    public function consent(): BelongsTo
+>>>>>>> d7a3f172 (first)
+>>>>>>> 2a1a69f (.)
     {
         return $this->belongsTo(Consent::class);
     }
