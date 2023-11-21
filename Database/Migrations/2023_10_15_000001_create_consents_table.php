@@ -15,7 +15,7 @@ class CreateConsentsTable extends XotBaseMigration
         // -- CREATE --
 
         $this->tableCreate(
-            static function (Blueprint $table) : void {
+            function (Blueprint $table) : void {
                 $table->uuid('id')->primary();
                 $table->uuid('treatment_id');
                 $table->string('subject_id');
@@ -27,7 +27,7 @@ class CreateConsentsTable extends XotBaseMigration
 
         // -- UPDATE --
         $this->tableUpdate(
-            static function (Blueprint $table) : void {
+            function (Blueprint $table) : void {
                 // if (! $this->hasColumn('email')) {
                 //    $table->string('email')->nullable();
                 // }

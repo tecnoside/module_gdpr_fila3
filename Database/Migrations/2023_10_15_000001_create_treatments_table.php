@@ -15,7 +15,7 @@ class CreateTreatmentsTable extends XotBaseMigration
         // -- CREATE --
 
         $this->tableCreate(
-            static function (Blueprint $table) : void {
+            function (Blueprint $table) : void {
                 $table->uuid('id')->primary();
                 $table->boolean('active')->default(true);
                 $table->boolean('required')->default(true);
@@ -30,7 +30,7 @@ class CreateTreatmentsTable extends XotBaseMigration
 
         // -- UPDATE --
         $this->tableUpdate(
-            static function (Blueprint $table) : void {
+            function (Blueprint $table) : void {
                 // if (! $this->hasColumn('email')) {
                 //    $table->string('email')->nullable();
                 // }
