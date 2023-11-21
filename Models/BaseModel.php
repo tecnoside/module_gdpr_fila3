@@ -59,6 +59,7 @@ abstract class BaseModel extends Model
     ];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     /**
      * @var array<string>
      */
@@ -78,6 +79,11 @@ abstract class BaseModel extends Model
      */
 >>>>>>> d7a3f172 (first)
 >>>>>>> 2a1a69f (.)
+=======
+    /**
+     * @var array<string>
+     */
+>>>>>>> 80316d9 (.)
     protected $appends = [];
 
     /**

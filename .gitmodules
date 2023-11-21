@@ -2,6 +2,7 @@
 #	path = docs
 #	url = https://github.com/laraxot/doc_gdpr.git
 <<<<<<< HEAD
+<<<<<<< HEAD
 #   url = git@github.com:laraxot/doc_gdpr.git
 =======
 <<<<<<< HEAD
@@ -9,3 +10,6 @@
 #   url = git@github.com:laraxot/doc_gdpr.git
 >>>>>>> d7a3f172 (first)
 >>>>>>> 2a1a69f (.)
+=======
+#   url = git@github.com:laraxot/doc_gdpr.git
+>>>>>>> 80316d9 (.)

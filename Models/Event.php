@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Modules\Gdpr\Models;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -21,6 +22,8 @@ use Illuminate\Support\Facades\Crypt;
 =======
 >>>>>>> d7a3f172 (first)
 >>>>>>> 2a1a69f (.)
+=======
+>>>>>>> 80316d9 (.)
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Facades\Crypt;
@@ -57,6 +60,7 @@ class Event extends BaseModel
     ];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public function consent(): BelongsTo
 =======
 <<<<<<< HEAD
@@ -73,6 +77,9 @@ class Event extends BaseModel
     public function consent(): BelongsTo
 >>>>>>> d7a3f172 (first)
 >>>>>>> 2a1a69f (.)
+=======
+    public function consent(): BelongsTo
+>>>>>>> 80316d9 (.)
     {
         return $this->belongsTo(Consent::class);
     }
