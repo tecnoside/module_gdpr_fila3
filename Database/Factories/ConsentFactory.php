@@ -23,9 +23,7 @@ class ConsentFactory extends Factory
      */
     public function definition()
     {
-
         return [
-
         ];
     }
 }

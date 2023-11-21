@@ -23,9 +23,7 @@ class TreatmentFactory extends Factory
      */
     public function definition()
     {
-
         return [
-
         ];
     }
 }
