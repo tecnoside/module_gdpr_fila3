@@ -6,16 +6,6 @@ namespace Modules\Gdpr\Models;
 
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d7a3f172 (first)
->>>>>>> 2a1a69f (.)
-=======
->>>>>>> 80316d9 (.)
 /**
  * Modules\Gdpr\Models\Treatment.
  *
@@ -26,17 +16,6 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  *
  * @mixin \Eloquent
  */
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
->>>>>>> d58ad792 (up)
-=======
->>>>>>> d7a3f172 (first)
->>>>>>> 2a1a69f (.)
-=======
->>>>>>> 80316d9 (.)
 class Treatment extends BaseModel
 {
     use HasUuids;

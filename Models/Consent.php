@@ -46,27 +46,7 @@ class Consent extends BaseModel
 
     public $fillable = ['subject_id', 'treatment_id'];
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function treatment(): BelongsTo
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    public function treatment(): BelongsTo
-=======
-    public function treatment():BelongsTo
->>>>>>> cc03aadb (up)
-=======
-    public function treatment(): BelongsTo
->>>>>>> 18b67f85 (up)
-=======
-    public function treatment(): BelongsTo
->>>>>>> d7a3f172 (first)
->>>>>>> 2a1a69f (.)
-=======
-    public function treatment(): BelongsTo
->>>>>>> 80316d9 (.)
     {
         return $this->belongsTo(Treatment::class);
     }
