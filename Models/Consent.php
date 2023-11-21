@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Gdpr\Models;
 
+use Illuminate\Support\Carbon;
+use Modules\Gdpr\Database\Factories\ConsentFactory;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
@@ -13,26 +16,26 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @property string                              $id
  * @property string                              $treatment_id
  * @property string                              $subject_id
- * @property \Illuminate\Support\Carbon|null     $created_at
- * @property \Illuminate\Support\Carbon|null     $updated_at
- * @property \Modules\Gdpr\Models\Treatment|null $treatment
+ * @property Carbon|null $created_at
+ * @property Carbon|null $updated_at
+ * @property Treatment|null $treatment
  *
- * @method static \Modules\Gdpr\Database\Factories\ConsentFactory factory($count = null, $state = [])
- * @method static \Illuminate\Database\Eloquent\Builder|Consent   newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Consent   newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Consent   query()
- * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereSubjectId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereTreatmentId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedAt($value)
+ * @method static ConsentFactory factory($count = null, $state = [])
+ * @method static Builder|Consent newModelQuery()
+ * @method static Builder|Consent newQuery()
+ * @method static Builder|Consent query()
+ * @method static Builder|Consent whereCreatedAt($value)
+ * @method static Builder|Consent whereId($value)
+ * @method static Builder|Consent whereSubjectId($value)
+ * @method static Builder|Consent whereTreatmentId($value)
+ * @method static Builder|Consent whereUpdatedAt($value)
  *
- * @property \Modules\Gdpr\Models\Treatment|null $treatment
+ * @property Treatment|null $treatment
  *
- * @method static \Modules\Gdpr\Database\Factories\ConsentFactory factory($count = null, $state = [])
- * @method static \Illuminate\Database\Eloquent\Builder|Consent   newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Consent   newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Consent   query()
+ * @method static ConsentFactory factory($count = null, $state = [])
+ * @method static Builder|Consent newModelQuery()
+ * @method static Builder|Consent newQuery()
+ * @method static Builder|Consent query()
  *
  * @mixin \Eloquent
  */

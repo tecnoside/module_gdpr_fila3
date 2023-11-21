@@ -4,15 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Gdpr\Models;
 
+use Modules\Gdpr\Database\Factories\TreatmentFactory;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 
 /**
  * Modules\Gdpr\Models\Treatment.
  *
- * @method static \Modules\Gdpr\Database\Factories\TreatmentFactory factory($count = null, $state = [])
- * @method static \Illuminate\Database\Eloquent\Builder|Treatment   newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Treatment   newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Treatment   query()
+ * @method static TreatmentFactory factory($count = null, $state = [])
+ * @method static Builder|Treatment newModelQuery()
+ * @method static Builder|Treatment newQuery()
+ * @method static Builder|Treatment query()
  *
  * @mixin \Eloquent
  */

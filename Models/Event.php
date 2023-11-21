@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Gdpr\Models;
 
+use Modules\Gdpr\Database\Factories\EventFactory;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Facades\Crypt;
@@ -13,14 +15,14 @@ use function Safe\json_encode;
 /**
  * Modules\Gdpr\Models\Event.
  *
- * @property \Modules\Gdpr\Models\Consent|null $consent
+ * @property Consent|null $consent
  * @property mixed                             $ip
  * @property mixed                             $payload
  *
- * @method static \Modules\Gdpr\Database\Factories\EventFactory factory($count = null, $state = [])
- * @method static \Illuminate\Database\Eloquent\Builder|Event   newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Event   newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Event   query()
+ * @method static EventFactory factory($count = null, $state = [])
+ * @method static Builder|Event newModelQuery()
+ * @method static Builder|Event newQuery()
+ * @method static Builder|Event query()
  *
  * @mixin \Eloquent
  */

@@ -18,7 +18,7 @@ class CreateGdprEventsTable extends XotBaseMigration
         // -- CREATE --
 
         $this->tableCreate(
-            function (Blueprint $table): void {
+            static function (Blueprint $table) : void {
                 $table->uuid('id')->primary();
                 $table->uuid('treatment_id')->nullable();
                 $table->uuid('consent_id')->nullable();
@@ -27,12 +27,10 @@ class CreateGdprEventsTable extends XotBaseMigration
                 $table->string('action');
                 $table->text('payload');
                 $table->timestamps();
-
                 $table
                     ->foreign('treatment_id')
                     ->references('id')
                     ->on('gdpr_treatment');
-
                 $table
                     ->foreign('consent_id')
                     ->references('id')
@@ -43,7 +41,7 @@ class CreateGdprEventsTable extends XotBaseMigration
 
         // -- UPDATE --
         $this->tableUpdate(
-            function (Blueprint $table): void {
+            static function (Blueprint $table) : void {
                 // if (! $this->hasColumn('email')) {
                 //    $table->string('email')->nullable();
                 // }
