@@ -15,15 +15,13 @@ use function Safe\json_encode;
 /**
  * Modules\Gdpr\Models\Event.
  *
- * @property Consent|null $consent
- * @property mixed        $ip
- * @property mixed        $payload
- *
- * @method static EventFactory  factory($count = null, $state = [])
+ * @property-read \Modules\Gdpr\Models\Consent|null $consent
+ * @property-write mixed $ip
+ * @property-write mixed $payload
+ * @method static \Modules\Gdpr\Database\Factories\EventFactory factory($count = null, $state = [])
  * @method static Builder|Event newModelQuery()
  * @method static Builder|Event newQuery()
  * @method static Builder|Event query()
- *
  * @mixin \Eloquent
  */
 class Event extends BaseModel
