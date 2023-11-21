@@ -4,23 +4,23 @@ declare(strict_types=1);
 
 namespace Modules\Gdpr\Models;
 
-use Illuminate\Support\Carbon;
-use Modules\Gdpr\Database\Factories\ConsentFactory;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Support\Carbon;
+use Modules\Gdpr\Database\Factories\ConsentFactory;
 
 /**
  * Modules\Gdpr\Models\Consent.
  *
- * @property string                              $id
- * @property string                              $treatment_id
- * @property string                              $subject_id
- * @property Carbon|null $created_at
- * @property Carbon|null $updated_at
+ * @property string         $id
+ * @property string         $treatment_id
+ * @property string         $subject_id
+ * @property Carbon|null    $created_at
+ * @property Carbon|null    $updated_at
  * @property Treatment|null $treatment
  *
- * @method static ConsentFactory factory($count = null, $state = [])
+ * @method static ConsentFactory  factory($count = null, $state = [])
  * @method static Builder|Consent newModelQuery()
  * @method static Builder|Consent newQuery()
  * @method static Builder|Consent query()
@@ -32,7 +32,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  *
  * @property Treatment|null $treatment
  *
- * @method static ConsentFactory factory($count = null, $state = [])
+ * @method static ConsentFactory  factory($count = null, $state = [])
  * @method static Builder|Consent newModelQuery()
  * @method static Builder|Consent newQuery()
  * @method static Builder|Consent query()
