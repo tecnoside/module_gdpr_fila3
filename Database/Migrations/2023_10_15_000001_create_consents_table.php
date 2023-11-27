@@ -21,7 +21,8 @@ class CreateConsentsTable extends XotBaseMigration
                 $table->string('subject_id');
                 $table->timestamps();
                 $table->unique(['subject_id', 'treatment_id']);
-                $table->foreign('treatment_id')->references('id')->on('gdpr_treatment');
+                $table->foreignId('treatment_id')->nullable()->index();
+                //$table->foreign('treatment_id')->references('id')->on('gdpr_treatment');
             }
         );
 
