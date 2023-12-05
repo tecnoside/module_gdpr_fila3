@@ -37,7 +37,6 @@
         "thecodingmachine/phpstan-safe-rule": "^1.2",
         "vimeo/psalm": "^5.15"
     },
-<<<<<<< HEAD
     "repositories": [
         {
             "type": "path",
@@ -53,28 +52,6 @@
 
         }
     ],
-=======
-    "repositories": [ {
-        "type": "path",
-        "url": "../Xot"
-    },
-    {
-        "type": "path",
-        "url": "../Tenant"
-    },
-    {
-        "type": "path",
-        "url": "../UI"
-    },
-    {
-        "type": "path",
-        "url": "../Tenant"
-    },
-    {
-        "type": "path",
-        "url": "../User"
-    }],
->>>>>>> 7405a7d4 (first)
     "scripts": {
         "post-autoload-dump": [
             "@php vendor/bin/testbench package:discover --ansi"

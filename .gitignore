@@ -3,4 +3,5 @@
 /build
 *.lock
 .git-rewrite
+.php-cs-fixer.cache
 *.phar
