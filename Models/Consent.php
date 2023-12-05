@@ -9,10 +9,13 @@ use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Carbon;
+<<<<<<< HEAD
 =======
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 >>>>>>> 7405a7d4 (first)
+=======
+>>>>>>> 4a1eeab7 (Lint)
 
 /**
  * Modules\Gdpr\Models\Consent.
@@ -21,6 +24,9 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @property string                              $treatment_id
  * @property string                              $subject_id
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4a1eeab7 (Lint)
  * @property Carbon|null                         $created_at
  * @property Carbon|null                         $updated_at
  * @property \Modules\Gdpr\Models\Treatment|null $treatment
@@ -34,6 +40,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method static Builder|Consent                                 whereSubjectId($value)
  * @method static Builder|Consent                                 whereTreatmentId($value)
  * @method static Builder|Consent                                 whereUpdatedAt($value)
+<<<<<<< HEAD
 =======
  * @property \Illuminate\Support\Carbon|null     $created_at
  * @property \Illuminate\Support\Carbon|null     $updated_at
@@ -56,6 +63,8 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   query()
 >>>>>>> 7405a7d4 (first)
+=======
+>>>>>>> 4a1eeab7 (Lint)
  *
  * @mixin \Eloquent
  */
