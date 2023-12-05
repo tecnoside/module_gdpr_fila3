@@ -41,6 +41,7 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
 class Treatment extends BaseModel
 {
     use HasUuids;
+
     protected $fillable = [''];
 
     // protected $table = 'treatment';
