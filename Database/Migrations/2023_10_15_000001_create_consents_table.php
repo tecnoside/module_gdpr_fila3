@@ -18,12 +18,21 @@ class CreateConsentsTable extends XotBaseMigration
             function (Blueprint $table): void {
                 $table->uuid('id')->primary();
                 $table->uuid('treatment_id');
+<<<<<<< HEAD
                 // $table->foreignId('treatment_id')->nullable()->index();
                 $table->string('subject_id');
                 $table->timestamps();
                 // $table->unique(['subject_id', 'treatment_id']);
 
                 // $table->foreign('treatment_id')->references('id')->on('gdpr_treatment');
+=======
+                $table->string('subject_id');
+                $table->timestamps();
+
+                $table->unique(['subject_id', 'treatment_id']);
+
+                $table->foreign('treatment_id')->references('id')->on('gdpr_treatment');
+>>>>>>> 7405a7d4 (first)
             }
         );
 

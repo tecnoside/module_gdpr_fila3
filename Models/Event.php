@@ -4,7 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Gdpr\Models;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
+=======
+>>>>>>> 7405a7d4 (first)
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Facades\Crypt;
@@ -14,6 +17,7 @@ use function Safe\json_encode;
 /**
  * Modules\Gdpr\Models\Event.
  *
+<<<<<<< HEAD
  * @property string                            $id
  * @property string|null                       $treatment_id
  * @property string|null                       $consent_id
@@ -38,6 +42,16 @@ use function Safe\json_encode;
  * @method static Builder|Event                                 whereSubjectId($value)
  * @method static Builder|Event                                 whereTreatmentId($value)
  * @method static Builder|Event                                 whereUpdatedAt($value)
+=======
+ * @property \Modules\Gdpr\Models\Consent|null $consent
+ * @property mixed                             $ip
+ * @property mixed                             $payload
+ *
+ * @method static \Modules\Gdpr\Database\Factories\EventFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder|Event   newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Event   newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Event   query()
+>>>>>>> 7405a7d4 (first)
  *
  * @mixin \Eloquent
  */
@@ -70,4 +84,8 @@ class Event extends BaseModel
     {
         $this->attributes['ip'] = Crypt::encrypt($value);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7405a7d4 (first)

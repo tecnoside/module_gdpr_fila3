@@ -4,12 +4,16 @@ declare(strict_types=1);
 
 namespace Modules\Gdpr\Models;
 
+<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
+=======
+>>>>>>> 7405a7d4 (first)
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 
 /**
  * Modules\Gdpr\Models\Treatment.
  *
+<<<<<<< HEAD
  * @property string                          $id
  * @property int                             $active
  * @property int                             $required
@@ -35,6 +39,12 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  * @method static Builder|Treatment                                 whereRequired($value)
  * @method static Builder|Treatment                                 whereUpdatedAt($value)
  * @method static Builder|Treatment                                 whereWeight($value)
+=======
+ * @method static \Modules\Gdpr\Database\Factories\TreatmentFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder|Treatment   newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Treatment   newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Treatment   query()
+>>>>>>> 7405a7d4 (first)
  *
  * @mixin \Eloquent
  */
@@ -46,4 +56,8 @@ class Treatment extends BaseModel
 
     // protected $table = 'treatment';
     public $incrementing = false;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7405a7d4 (first)

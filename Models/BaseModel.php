@@ -58,10 +58,20 @@ abstract class BaseModel extends Model
         'verified_at' => 'datetime',
     ];
 
+<<<<<<< HEAD
     /**
      * The accessors to append to the model's array form.
      *
      * @var array<string>
+=======
+     /**
+     * @var array<string>
+     */
+     /**
+     * The accessors to append to the model's array form.
+     *
+     * @var array
+>>>>>>> 7405a7d4 (first)
      */
     protected $appends = [];
 
@@ -86,4 +96,8 @@ abstract class BaseModel extends Model
     {
         return FactoryService::newFactory(static::class);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7405a7d4 (first)
