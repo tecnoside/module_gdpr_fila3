@@ -27,14 +27,14 @@ class CreateGdprEventsTable extends XotBaseMigration
                 $table->string('action');
                 $table->text('payload');
                 $table->timestamps();
-                //$table->foreignId('treatment_id')->nullable();
+                // $table->foreignId('treatment_id')->nullable();
                 /*
                 $table
                     ->foreign('treatment_id')
                     ->references('id')
                     ->on('gdpr_treatment');
                 */
-                //$table->foreignId('consent_id')->nullable();
+                // $table->foreignId('consent_id')->nullable();
                 /*
                 $table
                     ->foreign('consent_id')
