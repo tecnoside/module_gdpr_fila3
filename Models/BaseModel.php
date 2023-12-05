@@ -58,13 +58,10 @@ abstract class BaseModel extends Model
         'verified_at' => 'datetime',
     ];
 
-     /**
-     * @var array<string>
-     */
-     /**
+    /**
      * The accessors to append to the model's array form.
      *
-     * @var array
+     * @var array<string>
      */
     protected $appends = [];
 
