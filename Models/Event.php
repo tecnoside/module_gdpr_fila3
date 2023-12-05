@@ -18,6 +18,9 @@ use function Safe\json_encode;
  * Modules\Gdpr\Models\Event.
  *
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4a1eeab7 (Lint)
  * @property string                            $id
  * @property string|null                       $treatment_id
  * @property string|null                       $consent_id
@@ -42,6 +45,7 @@ use function Safe\json_encode;
  * @method static Builder|Event                                 whereSubjectId($value)
  * @method static Builder|Event                                 whereTreatmentId($value)
  * @method static Builder|Event                                 whereUpdatedAt($value)
+<<<<<<< HEAD
 =======
  * @property \Modules\Gdpr\Models\Consent|null $consent
  * @property mixed                             $ip
@@ -52,6 +56,8 @@ use function Safe\json_encode;
  * @method static \Illuminate\Database\Eloquent\Builder|Event   newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Event   query()
 >>>>>>> 7405a7d4 (first)
+=======
+>>>>>>> 4a1eeab7 (Lint)
  *
  * @mixin \Eloquent
  */

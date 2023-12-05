@@ -28,6 +28,9 @@ class CreateGdprEventsTable extends XotBaseMigration
                 $table->text('payload');
                 $table->timestamps();
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4a1eeab7 (Lint)
                 // $table->foreignId('treatment_id')->nullable();
                 /*
 =======
