@@ -23,6 +23,7 @@ use function Safe\json_encode;
  * @property \Illuminate\Support\Carbon|null   $created_at
  * @property \Illuminate\Support\Carbon|null   $updated_at
  * @property \Modules\Gdpr\Models\Consent|null $consent
+ *
  * @method static \Modules\Gdpr\Database\Factories\EventFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Event   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Event   newQuery()
@@ -36,6 +37,7 @@ use function Safe\json_encode;
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereSubjectId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereTreatmentId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereUpdatedAt($value)
+ *
  * @mixin \Eloquent
  */
 class Event extends BaseModel
