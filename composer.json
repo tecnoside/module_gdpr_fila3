@@ -28,7 +28,7 @@
         "driftingly/rector-laravel": "^0.26.2",
         "enlightn/enlightn": "^2.5",
         "laravel/pint": "^1.13",
-        "nunomaduro/larastan": "^2.6",
+        "larastan/larastan": "^2.6",
         "nunomaduro/phpinsights": "^2.9",
         "psalm/plugin-laravel": "^2.8",
         "rector/phpstan-rules": "^0.7.1",
