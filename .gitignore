@@ -6,3 +6,4 @@
 .php-cs-fixer.cache
 *.phar
 .php-cs-fixer.cache
+*.lock
