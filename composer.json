@@ -29,7 +29,7 @@
         "enlightn/enlightn": "^2.7",
         "larastan/larastan": "^2.6",
         "laravel/pint": "^1.13",
-        "nunomaduro/larastan": "^2.7",
+        "larastan/larastan": "^2.7",
         "nunomaduro/phpinsights": "^2.11",
         "psalm/plugin-laravel": "^2.8",
         "rector/phpstan-rules": "^0.7.1",
