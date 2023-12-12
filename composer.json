@@ -30,10 +30,14 @@
         "larastan/larastan": "^2.6",
         "laravel/pint": "^1.13",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "larastan/larastan": "^2.7",
 =======
         "nunomaduro/larastan": "^2.7",
 >>>>>>> adc5031c (.)
+=======
+        "larastan/larastan": "^2.7",
+>>>>>>> 23a9f7bd (.)
         "nunomaduro/phpinsights": "^2.11",
         "psalm/plugin-laravel": "^2.8",
         "rector/phpstan-rules": "^0.7.1",
