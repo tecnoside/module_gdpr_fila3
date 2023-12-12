@@ -7,3 +7,4 @@
 *.phar
 .php-cs-fixer.cache
 *.lock
+.git-blame-ignore-revs
