@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 namespace Modules\Gdpr\Providers\Filament;
 
 use Filament\Pages;
@@ -18,10 +19,20 @@ use Modules\Xot\Providers\Filament\XotBasePanelProvider;
 use Filament\Http\Middleware\DispatchServingFilamentEvent;
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
 use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
+=======
+declare(strict_types=1);
+
+namespace Modules\Gdpr\Providers\Filament;
+
+use Modules\Xot\Providers\Filament\XotBasePanelProvider;
+>>>>>>> dev
 
 class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'Gdpr';
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> dev
 }
