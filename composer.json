@@ -1,9 +1,12 @@
 {
     "name": "laraxot/module_gdpr_fila3",
     "description": "",
+    "homepage": "https://github.com/laraxot/module_gdpr_fila3.git",
+    "license": "MIT",
     "authors": [{
         "name": "Marco Sottana",
-        "email": "marco.sottana@gmail.com"
+        "email": "marco.sottana@gmail.com",
+        "role": "Developer"
     }],
     "extra": {
         "laravel": {
