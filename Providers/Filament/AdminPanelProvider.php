@@ -5,6 +5,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d18e021f (.)
 =======
@@ -58,6 +59,8 @@ use Modules\Xot\Providers\Filament\XotBasePanelProvider;
 =======
 =======
 >>>>>>> f2b93dcd (.)
+=======
+>>>>>>> f2b93dcd (.)
 namespace Modules\Gdpr\Providers\Filament;
 
 use Filament\Pages;
@@ -77,6 +80,7 @@ use Filament\Http\Middleware\DispatchServingFilamentEvent;
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
 use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> f2b93dcd (.)
 =======
 >>>>>>> f2b93dcd (.)
@@ -104,6 +108,8 @@ use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
 >>>>>>> 8830132c (.)
 >>>>>>> 3b185982 (rebase 30)
 >>>>>>> c1c70014 (rebase 18)
+=======
+>>>>>>> f2b93dcd (.)
 
 class AdminPanelProvider extends XotBasePanelProvider
 {
@@ -111,6 +117,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 658634fb (rebase 18)
@@ -150,4 +157,8 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> 8830132c (.)
 >>>>>>> 3b185982 (rebase 30)
 >>>>>>> c1c70014 (rebase 18)
+=======
+
+
+>>>>>>> f2b93dcd (.)
 }
