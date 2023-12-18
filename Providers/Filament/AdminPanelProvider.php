@@ -13,8 +13,16 @@
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fd631f4c (rebase 30)
+<<<<<<< HEAD
 >>>>>>> 658634fb (rebase 18)
+=======
+=======
+=======
+>>>>>>> d18e021f (.)
+>>>>>>> 4dbc95ee (rebase 30)
+>>>>>>> 6bdaae06 (rebase 18)
 declare(strict_types=1);
 
 namespace Modules\Gdpr\Providers\Filament;
@@ -23,9 +31,15 @@ use Modules\Xot\Providers\Filament\XotBasePanelProvider;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 658634fb (rebase 18)
+=======
+=======
+=======
+>>>>>>> 4dbc95ee (rebase 30)
+>>>>>>> 6bdaae06 (rebase 18)
 =======
 =======
 >>>>>>> f2b93dcd (.)
@@ -52,6 +66,7 @@ use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
 =======
 >>>>>>> f2b93dcd (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d18e021f (.)
 =======
@@ -59,6 +74,13 @@ use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
 =======
 >>>>>>> fd631f4c (rebase 30)
 >>>>>>> 658634fb (rebase 18)
+=======
+>>>>>>> fd631f4c (rebase 30)
+=======
+=======
+>>>>>>> d18e021f (.)
+>>>>>>> 4dbc95ee (rebase 30)
+>>>>>>> 6bdaae06 (rebase 18)
 
 class AdminPanelProvider extends XotBasePanelProvider
 {
@@ -71,6 +93,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> 658634fb (rebase 18)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 
@@ -80,6 +103,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 
 >>>>>>> f2b93dcd (.)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d18e021f (.)
 =======
@@ -87,4 +111,11 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 >>>>>>> fd631f4c (rebase 30)
 >>>>>>> 658634fb (rebase 18)
+=======
+>>>>>>> fd631f4c (rebase 30)
+=======
+=======
+>>>>>>> d18e021f (.)
+>>>>>>> 4dbc95ee (rebase 30)
+>>>>>>> 6bdaae06 (rebase 18)
 }
