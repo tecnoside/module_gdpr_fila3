@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fd631f4c (rebase 30)
 <<<<<<< HEAD
 >>>>>>> 658634fb (rebase 18)
@@ -22,7 +23,16 @@
 =======
 >>>>>>> d18e021f (.)
 >>>>>>> 4dbc95ee (rebase 30)
+<<<<<<< HEAD
 >>>>>>> 6bdaae06 (rebase 18)
+=======
+=======
+=======
+>>>>>>> d18e021f (.)
+=======
+>>>>>>> 8830132c (.)
+>>>>>>> 3b185982 (rebase 30)
+>>>>>>> c1c70014 (rebase 18)
 declare(strict_types=1);
 
 namespace Modules\Gdpr\Providers\Filament;
@@ -32,14 +42,19 @@ use Modules\Xot\Providers\Filament\XotBasePanelProvider;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 658634fb (rebase 18)
 =======
 =======
+>>>>>>> c1c70014 (rebase 18)
+=======
 =======
 >>>>>>> 4dbc95ee (rebase 30)
 >>>>>>> 6bdaae06 (rebase 18)
+=======
+>>>>>>> 3b185982 (rebase 30)
 =======
 =======
 >>>>>>> f2b93dcd (.)
@@ -79,8 +94,16 @@ use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
 =======
 =======
 >>>>>>> d18e021f (.)
+<<<<<<< HEAD
 >>>>>>> 4dbc95ee (rebase 30)
+<<<<<<< HEAD
 >>>>>>> 6bdaae06 (rebase 18)
+=======
+=======
+=======
+>>>>>>> 8830132c (.)
+>>>>>>> 3b185982 (rebase 30)
+>>>>>>> c1c70014 (rebase 18)
 
 class AdminPanelProvider extends XotBasePanelProvider
 {
@@ -91,6 +114,7 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 =======
 >>>>>>> 658634fb (rebase 18)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116,6 +140,14 @@ class AdminPanelProvider extends XotBasePanelProvider
 =======
 =======
 >>>>>>> d18e021f (.)
+<<<<<<< HEAD
 >>>>>>> 4dbc95ee (rebase 30)
+<<<<<<< HEAD
 >>>>>>> 6bdaae06 (rebase 18)
+=======
+=======
+=======
+>>>>>>> 8830132c (.)
+>>>>>>> 3b185982 (rebase 30)
+>>>>>>> c1c70014 (rebase 18)
 }
