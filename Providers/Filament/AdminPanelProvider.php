@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> d18e021f (.)
 =======
@@ -37,11 +38,14 @@
 >>>>>>> c1c70014 (rebase 18)
 =======
 >>>>>>> d18e021f (.)
+=======
+>>>>>>> master
 declare(strict_types=1);
 
 namespace Modules\Gdpr\Providers\Filament;
 
 use Modules\Xot\Providers\Filament\XotBasePanelProvider;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -116,10 +120,13 @@ use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
 >>>>>>> f2b93dcd (.)
 =======
 >>>>>>> d18e021f (.)
+=======
+>>>>>>> master
 
 class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'Gdpr';
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -170,4 +177,6 @@ class AdminPanelProvider extends XotBasePanelProvider
 >>>>>>> f2b93dcd (.)
 =======
 >>>>>>> d18e021f (.)
+=======
+>>>>>>> master
 }
