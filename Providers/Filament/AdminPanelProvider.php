@@ -1,12 +1,15 @@
 <?php
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 declare(strict_types=1);
 
 namespace Modules\Gdpr\Providers\Filament;
 
 use Modules\Xot\Providers\Filament\XotBasePanelProvider;
 =======
+=======
+>>>>>>> f2b93dcd (.)
 namespace Modules\Gdpr\Providers\Filament;
 
 use Filament\Pages;
@@ -25,12 +28,20 @@ use Modules\Xot\Providers\Filament\XotBasePanelProvider;
 use Filament\Http\Middleware\DispatchServingFilamentEvent;
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken;
 use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
+<<<<<<< HEAD
+>>>>>>> f2b93dcd (.)
+=======
 >>>>>>> f2b93dcd (.)
 
 class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'Gdpr';
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> f2b93dcd (.)
 =======
 
 
