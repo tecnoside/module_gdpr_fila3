@@ -45,8 +45,4 @@ class Treatment extends BaseModel
 
     // protected $table = 'treatment';
     public $incrementing = false;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> master
