@@ -69,4 +69,8 @@ class Event extends BaseModel
     {
         $this->attributes['ip'] = Crypt::encrypt($value);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> master

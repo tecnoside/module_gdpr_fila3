@@ -43,4 +43,8 @@ class Consent extends BaseModel
     {
         return $this->belongsTo(Treatment::class);
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> master
