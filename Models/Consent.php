@@ -10,12 +10,12 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 /**
  * Modules\Gdpr\Models\Consent.
  *
- * @property string                              $id
- * @property string                              $treatment_id
- * @property string                              $subject_id
- * @property \Illuminate\Support\Carbon|null     $created_at
- * @property \Illuminate\Support\Carbon|null     $updated_at
- * @property \Modules\Gdpr\Models\Treatment|null $treatment
+ * @property string                          $id
+ * @property string                          $treatment_id
+ * @property string                          $subject_id
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property Treatment|null                  $treatment
  *
  * @method static \Modules\Gdpr\Database\Factories\ConsentFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   newModelQuery()
