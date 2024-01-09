@@ -7,12 +7,16 @@ namespace Modules\Gdpr\Models;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 use Illuminate\Support\Carbon;
 >>>>>>> 4a1eeab7 (Lint)
 >>>>>>> 9d39a90c (first)
+=======
+use Illuminate\Support\Carbon;
+>>>>>>> bac4f28f (.)
 
 /**
  * Modules\Gdpr\Models\Consent.
@@ -28,6 +32,7 @@ use Illuminate\Support\Carbon;
  * @property string                              $id
  * @property string                              $treatment_id
  * @property string                              $subject_id
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @property \Illuminate\Support\Carbon|null     $created_at
  * @property \Illuminate\Support\Carbon|null     $updated_at
@@ -46,6 +51,8 @@ use Illuminate\Support\Carbon;
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> bac4f28f (.)
  * @property Carbon|null                         $created_at
  * @property Carbon|null                         $updated_at
  * @property \Modules\Gdpr\Models\Treatment|null $treatment
@@ -59,8 +66,11 @@ use Illuminate\Support\Carbon;
  * @method static Builder|Consent                                 whereSubjectId($value)
  * @method static Builder|Consent                                 whereTreatmentId($value)
  * @method static Builder|Consent                                 whereUpdatedAt($value)
+<<<<<<< HEAD
 >>>>>>> 4a1eeab7 (Lint)
 >>>>>>> 9d39a90c (first)
+=======
+>>>>>>> bac4f28f (.)
  *
  * @mixin \Eloquent
  */
