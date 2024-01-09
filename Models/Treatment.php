@@ -6,8 +6,6 @@ namespace Modules\Gdpr\Models;
 
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 
-<<<<<<< HEAD
-=======
 /**
  * Modules\Gdpr\Models\Treatment.
  *
@@ -39,7 +37,6 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  *
  * @mixin \Eloquent
  */
->>>>>>> 9d39a90c (first)
 class Treatment extends BaseModel
 {
     use HasUuids;

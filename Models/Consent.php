@@ -6,38 +6,16 @@ namespace Modules\Gdpr\Models;
 
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-use Illuminate\Support\Carbon;
->>>>>>> 4a1eeab7 (Lint)
->>>>>>> 9d39a90c (first)
-=======
-use Illuminate\Support\Carbon;
->>>>>>> bac4f28f (.)
 
 /**
  * Modules\Gdpr\Models\Consent.
  *
-<<<<<<< HEAD
  * @property string                          $id
  * @property string                          $treatment_id
  * @property string                          $subject_id
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property Treatment|null                  $treatment
-=======
- * @property string                              $id
- * @property string                              $treatment_id
- * @property string                              $subject_id
-<<<<<<< HEAD
-<<<<<<< HEAD
- * @property \Illuminate\Support\Carbon|null     $created_at
- * @property \Illuminate\Support\Carbon|null     $updated_at
- * @property \Modules\Gdpr\Models\Treatment|null $treatment
->>>>>>> 9d39a90c (first)
  *
  * @method static \Modules\Gdpr\Database\Factories\ConsentFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   newModelQuery()
@@ -48,29 +26,6 @@ use Illuminate\Support\Carbon;
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereSubjectId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereTreatmentId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedAt($value)
-<<<<<<< HEAD
-=======
-=======
-=======
->>>>>>> bac4f28f (.)
- * @property Carbon|null                         $created_at
- * @property Carbon|null                         $updated_at
- * @property \Modules\Gdpr\Models\Treatment|null $treatment
- *
- * @method static \Modules\Gdpr\Database\Factories\ConsentFactory factory($count = null, $state = [])
- * @method static Builder|Consent                                 newModelQuery()
- * @method static Builder|Consent                                 newQuery()
- * @method static Builder|Consent                                 query()
- * @method static Builder|Consent                                 whereCreatedAt($value)
- * @method static Builder|Consent                                 whereId($value)
- * @method static Builder|Consent                                 whereSubjectId($value)
- * @method static Builder|Consent                                 whereTreatmentId($value)
- * @method static Builder|Consent                                 whereUpdatedAt($value)
-<<<<<<< HEAD
->>>>>>> 4a1eeab7 (Lint)
->>>>>>> 9d39a90c (first)
-=======
->>>>>>> bac4f28f (.)
  *
  * @mixin \Eloquent
  */
