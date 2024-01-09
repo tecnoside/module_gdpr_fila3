@@ -1,7 +1,10 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
+=======
+>>>>>>> 9d39a90c (first)
 namespace Modules\Gdpr\Filament\Pages;
 
 use Filament\Pages\Page;
