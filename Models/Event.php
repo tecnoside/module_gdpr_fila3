@@ -13,16 +13,16 @@ use function Safe\json_encode;
 /**
  * Modules\Gdpr\Models\Event.
  *
- * @property string                            $id
- * @property string|null                       $treatment_id
- * @property string|null                       $consent_id
- * @property string                            $subject_id
- * @property string                            $ip
- * @property string                            $action
- * @property string                            $payload
- * @property \Illuminate\Support\Carbon|null   $created_at
- * @property \Illuminate\Support\Carbon|null   $updated_at
- * @property \Modules\Gdpr\Models\Consent|null $consent
+ * @property string                          $id
+ * @property string|null                     $treatment_id
+ * @property string|null                     $consent_id
+ * @property string                          $subject_id
+ * @property string                          $ip
+ * @property string                          $action
+ * @property string                          $payload
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property Consent|null                    $consent
  *
  * @method static \Modules\Gdpr\Database\Factories\EventFactory factory($count = null, $state = [])
  * @method static Builder|Event                                 newModelQuery()
