@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Modules\Gdpr\Tests\Unit\Database\Seeders;
 
 use Modules\Gdpr\Database\Seeders\GdprDatabaseSeeder;
@@ -14,20 +16,14 @@ final class GdprDatabaseSeederTest extends TestCase
 {
     private GdprDatabaseSeeder $gdprDatabaseSeeder;
 
-    /**
-     * {@inheritdoc}
-     */
     protected function setUp(): void
     {
         parent::setUp();
 
-        /** @todo Correctly instantiate tested object to use it. */
+        /* @todo Correctly instantiate tested object to use it. */
         $this->gdprDatabaseSeeder = new GdprDatabaseSeeder();
     }
 
-    /**
-     * {@inheritdoc}
-     */
     protected function tearDown(): void
     {
         parent::tearDown();
@@ -37,7 +33,7 @@ final class GdprDatabaseSeederTest extends TestCase
 
     public function testRun(): void
     {
-        /** @todo This test is incomplete. */
+        /* @todo This test is incomplete. */
         self::markTestIncomplete();
     }
 }
