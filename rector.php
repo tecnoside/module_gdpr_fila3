@@ -10,21 +10,26 @@ use RectorLaravel\Rector\MethodCall\RedirectRouteToToRouteHelperRector;
 use RectorLaravel\Set\LaravelSetList;
 
 return static function (RectorConfig $rectorConfig): void {
-    $rectorConfig->paths([
+    $rectorConfig->paths(
+        [
         __DIR__,
-    ]);
+        ]
+    );
 
-    $rectorConfig->skip([
+    $rectorConfig->skip(
+        [
         '*/docs',
         '*/vendor',
-    ]);
+        ]
+    );
 
     // register a single rule
     // $rectorConfig->rule(InlineConstructorDefaultToPropertyRector::class);
     // $rectorConfig->rule(RedirectRouteToToRouteHelperRector::class);
 
     // define sets of rules
-    $rectorConfig->sets([
+    $rectorConfig->sets(
+        [
         PHPUnitLevelSetList::UP_TO_PHPUNIT_100,
         // SetList::DEAD_CODE,
         // SetList::CODE_QUALITY,
@@ -37,7 +42,8 @@ return static function (RectorConfig $rectorConfig): void {
         // SetList::PRIVATIZATION,//problemi con final
         // SetList::EARLY_RETURN,
         // SetList::INSTANCEOF,
-    ]);
+        ]
+    );
 
     $rectorConfig->importNames();
 };
