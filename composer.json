@@ -30,14 +30,12 @@
     "require-dev": {
         "driftingly/rector-laravel": "^0.26.2",
         "enlightn/enlightn": "^2.7",
-        "larastan/larastan": "^2.6",
         "laravel/pint": "^1.13",
         "larastan/larastan": "^2.7",
         "nunomaduro/phpinsights": "^2.11",
         "psalm/plugin-laravel": "^2.8",
         "symplify/phpstan-rules": "*",
         "rector/rector": "^0.18.12",
-        "symplify/phpstan-rules": "*",
         "thecodingmachine/phpstan-safe-rule": "^1.2",
         "vimeo/psalm": "^5.17"
     },
