@@ -46,9 +46,6 @@ abstract class BaseMorphPivot extends MorphPivot
     /** @var string */
     protected $connection = 'user';
 
-    /**
-     * @var array
-     */
     /** @var array<int, string> */
     protected $appends = [];
 

@@ -34,9 +34,6 @@ abstract class BasePivot extends Pivot
     /** @var string */
     protected $connection = 'user';
 
-    /**
-     * @var array
-     */
     /** @var array<int, string> */
     protected $appends = [];
 
@@ -48,10 +45,6 @@ abstract class BasePivot extends Pivot
         'deleted_at' => 'datetime',
     ];
 
-    /**
-     * Undocumented variable.
-     *
-     * @var string
-     */
+    /** @var string */
     protected $primaryKey = 'id';
 }
