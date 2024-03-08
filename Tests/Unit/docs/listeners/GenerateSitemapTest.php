@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\Unit\Listeners;
+namespace Modules\Gdpr\Tests\Unit\Listeners;
 
 use App\Listeners\GenerateSitemap;
 use Tests\TestCase;

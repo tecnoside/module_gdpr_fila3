@@ -1,4 +1,4 @@
-<?php
+trict_types=1);
 
 namespace App\Providers\Filament;
 
@@ -52,5 +52,3 @@ class AdminPanelProvider extends PanelProvider
             ->authMiddleware([
                 Authenticate::class,
             ]);
-    }
-}
