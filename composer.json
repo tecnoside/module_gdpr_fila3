@@ -30,9 +30,11 @@
     "require-dev": {
         "driftingly/rector-laravel": "^0.26.2",
         "enlightn/enlightn": "^2.7",
-        "laravel/pint": "^1.13",
         "larastan/larastan": "^2.7",
+        "laravel/pint": "^1.13",
         "nunomaduro/phpinsights": "^2.11",
+        "orchestra/pest-plugin-testbench": "*",
+        "orchestra/testbench": "*",
         "psalm/plugin-laravel": "^2.8",
         "rector/rector": "^0.18.12",
         "symplify/phpstan-rules": "*",
