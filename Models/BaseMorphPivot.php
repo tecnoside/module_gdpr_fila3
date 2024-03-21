@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Relations\MorphPivot;
-use Modules\Xot\Services\FactoryService;
 use Modules\Xot\Traits\Updater;
 
 /**
@@ -71,6 +70,6 @@ abstract class BaseMorphPivot extends MorphPivot
      */
     protected static function newFactory()
     {
-        return FactoryService::newFactory(static::class);
+        return app(\Modules\Xot\Actions\Factory\GetFactoryAction::class)->execute(static::class);
     }
 }
