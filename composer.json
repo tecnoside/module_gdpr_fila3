@@ -22,9 +22,11 @@
         }
     },
     "require": {
+        "filament/filament": "^3.2",
         "illuminate/contracts": "*",
         "illuminate/support": "*",
         "laraxot/module_xot_fila3": "dev-master",
+        "mhmiton/laravel-modules-livewire": "^2.3",
         "thecodingmachine/safe": "^2.5"
     },
     "require-dev": {
@@ -32,9 +34,10 @@
         "enlightn/enlightn": "^2.7",
         "larastan/larastan": "^2.7",
         "laravel/pint": "^1.13",
+        "nunomaduro/collision": "^7.10",
         "nunomaduro/phpinsights": "^2.11",
         "orchestra/pest-plugin-testbench": "*",
-        "orchestra/testbench": "*",
+        "orchestra/testbench": "^8.22",
         "pestphp/pest": "^2.34",
         "psalm/plugin-laravel": "^2.8",
         "rector/rector": "^0.18.12",
@@ -73,7 +76,8 @@
         "sort-packages": true,
         "allow-plugins": {
             "pestphp/pest-plugin": true,
-            "dealerdirect/phpcodesniffer-composer-installer": true
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "wikimedia/composer-merge-plugin": true
         }
     },
     "minimum-stability": "dev",
