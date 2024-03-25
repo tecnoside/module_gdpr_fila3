@@ -40,7 +40,7 @@
         "orchestra/testbench": "^8.22",
         "pestphp/pest": "^2.34",
         "psalm/plugin-laravel": "^2.8",
-        "rector/rector": "^0.18.12",
+        "rector/rector": "^1.0",
         "symplify/phpstan-rules": "*",
         "thecodingmachine/phpstan-safe-rule": "^1.2",
         "vimeo/psalm": "^5.17"
