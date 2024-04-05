@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Modules\Gdpr\Filament\Pages;
 
-use Filament\Pages\Page;
+use Filament\Pages\Dashboard as BaseDashboard;
 
-class Dashboard extends Page
+class Dashboard extends BaseDashboard
 {
-    protected static ?string $navigationIcon = 'heroicon-o-document-text';
+    protected static ?string $navigationIcon = 'heroicon-o-home';
 
-    protected static string $view = 'gdpr::filament.pages.dashboard';
+    // protected static string $view = 'gdpr::filament.pages.dashboard';
 }
