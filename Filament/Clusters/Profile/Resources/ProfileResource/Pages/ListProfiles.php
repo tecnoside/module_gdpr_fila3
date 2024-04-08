@@ -1,10 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Modules\Gdpr\Filament\Clusters\Profile\Resources\ProfileResource\Pages;
 
-use Modules\Gdpr\Filament\Clusters\Profile\Resources\ProfileResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ListRecords;
+use Modules\Gdpr\Filament\Clusters\Profile\Resources\ProfileResource;
 
 class ListProfiles extends ListRecords
 {

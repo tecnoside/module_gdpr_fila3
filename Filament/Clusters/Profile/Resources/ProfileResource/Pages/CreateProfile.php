@@ -1,10 +1,11 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Modules\Gdpr\Filament\Clusters\Profile\Resources\ProfileResource\Pages;
 
-use Modules\Gdpr\Filament\Clusters\Profile\Resources\ProfileResource;
-use Filament\Actions;
 use Filament\Resources\Pages\CreateRecord;
+use Modules\Gdpr\Filament\Clusters\Profile\Resources\ProfileResource;
 
 class CreateProfile extends CreateRecord
 {
