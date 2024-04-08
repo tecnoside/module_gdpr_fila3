@@ -17,8 +17,8 @@ use Modules\Xot\Filament\Traits\NavigationLabelTrait;
 
 class ProfilePage extends Page
 {
-    use NavigationLabelTrait;
     use HasPageSidebar;
+    use NavigationLabelTrait;
 
     public static function shouldRegisterNavigation(): bool
     {
