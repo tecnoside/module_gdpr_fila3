@@ -19,7 +19,6 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  * @property int $weight
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
- *
  * @method static \Modules\Gdpr\Database\Factories\TreatmentFactory factory($count = null, $state = [])
  * @method static Builder|Treatment newModelQuery()
  * @method static Builder|Treatment newQuery()
