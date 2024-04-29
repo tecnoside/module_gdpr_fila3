@@ -7,8 +7,6 @@ namespace Modules\Gdpr\Models;
 // use Modules\User\Models\BaseProfile;
 
 /**
- * 
- *
  * @property int                             $id
  * @property string|null                     $type
  * @property string|null                     $first_name
@@ -23,6 +21,7 @@ namespace Modules\Gdpr\Models;
  * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property string|null                     $deleted_by
  * @property int                             $is_active
+ *
  * @method static \Modules\Gdpr\Database\Factories\ProfileFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newQuery()
@@ -41,6 +40,7 @@ namespace Modules\Gdpr\Models;
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUpdatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUserId($value)
+ *
  * @mixin \Eloquent
  */
 class Profile extends BaseModel
