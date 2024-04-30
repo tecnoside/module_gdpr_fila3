@@ -22,7 +22,7 @@ use function Safe\json_encode;
  * @property string                          $payload
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
- *                                                         <<<<<<< HEAD
+ *                                                         <<<<EAD
  * @property Consent|null                    $consent
  *
  * @method static \Modules\Gdpr\Database\Factories\EventFactory factory($count = null, $state = [])
