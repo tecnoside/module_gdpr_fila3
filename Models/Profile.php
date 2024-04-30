@@ -7,7 +7,6 @@ namespace Modules\Gdpr\Models;
 // use Modules\User\Models\BaseProfile;
 
 /**
- * <<<<<<< HEAD.
  *
  * @property int                             $id
  * @property string|null                     $type
@@ -15,21 +14,18 @@ namespace Modules\Gdpr\Models;
  * @property string|null                     $last_name
  * @property string|null                     $full_name
  * @property string|null                     $email
- *                                                       =======
  * @property int                             $id
  * @property string|null                     $type
  * @property string|null                     $first_name
  * @property string|null                     $last_name
  * @property string|null                     $full_name
  * @property string|null                     $email
- *                                                       >>>>>>> fa4ebca (Lint)
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property string|null                     $user_id
  * @property string|null                     $updated_by
  * @property string|null                     $created_by
  * @property \Illuminate\Support\Carbon|null $deleted_at
- *                                                       <<<<<<< HEAD
  * @property string|null                     $deleted_by
  * @property int                             $is_active
  *
