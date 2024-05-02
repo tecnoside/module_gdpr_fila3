@@ -15,6 +15,12 @@ namespace Modules\Gdpr\Models;
  * @property string|null $last_name
  * @property string|null $full_name
  * @property string|null $email
+ * @property int $id
+ * @property string|null $type
+ * @property string|null $first_name
+ * @property string|null $last_name
+ * @property string|null $full_name
+ * @property string|null $email
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property string|null $user_id
