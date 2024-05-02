@@ -19,7 +19,6 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  * @property int $weight
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
- *
  * @method static \Modules\Gdpr\Database\Factories\TreatmentFactory factory($count = null, $state = [])
  * @method static Builder|Treatment newModelQuery()
  * @method static Builder|Treatment newQuery()
@@ -34,7 +33,6 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  * @method static Builder|Treatment whereRequired($value)
  * @method static Builder|Treatment whereUpdatedAt($value)
  * @method static Builder|Treatment whereWeight($value)
- *
  * @mixin \Eloquent
  */
 class Treatment extends BaseModel
