@@ -1,10 +1,11 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Modules\Gdpr\Filament\Resources\TreatmentResource\Pages;
 
-use Modules\Gdpr\Filament\Resources\TreatmentResource;
-use Filament\Actions;
 use Filament\Resources\Pages\CreateRecord;
+use Modules\Gdpr\Filament\Resources\TreatmentResource;
 
 class CreateTreatment extends CreateRecord
 {

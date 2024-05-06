@@ -14,7 +14,7 @@ return [
         'create' => 'Nuovo Tecnico',
         'edit' => 'Modifica Tecnico',
         'view' => 'Tecnico',
-        'list_technicians'=>[
+        'list_technicians' => [
             'navigation' => [
                 'name' => 'Tecnici',
                 'plural' => 'Tecnici',
@@ -32,7 +32,7 @@ return [
                 'color' => 'Colore',
                 'asset_id_root' => 'Abitazione',
                 'asset_id' => 'Asset',
-                'type'=>'Tipo',
+                'type' => 'Tipo',
             ],
         ],
     ],
@@ -45,8 +45,8 @@ return [
         'color' => 'Colore',
         'asset_id_root' => 'Abitazione',
         'asset_id' => 'Asset',
-        'type'=>'tipo',
-        'user_name'=>'nome utente',
+        'type' => 'tipo',
+        'user_name' => 'nome utente',
     ],
     'filters' => [
         'is_active' => [
