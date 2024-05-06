@@ -9,8 +9,9 @@ use Filament\Actions;
 use Filament\Resources\Pages\ListRecords;
 use Modules\Gdpr\Filament\Resources\ProfileResource;
 use Modules\Gdpr\Models\Profile;
+use Modules\User\Filament\Resources\BaseProfileResource\Pages\ListProfiles as UserListProfiles;
 
-class ListProfiles extends ListRecords
+class ListProfiles extends UserListProfiles
 {
     // use HasPageSidebar;
 

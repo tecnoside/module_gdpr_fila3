@@ -4,18 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Gdpr\Filament\Resources;
 
-use AymanAlhattami\FilamentPageWithSidebar\Traits\HasPageSidebar;
 use Filament\Forms\Form;
-use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
 use Modules\Gdpr\Filament\Resources\ProfileResource\Pages;
 use Modules\Gdpr\Models\Profile;
+use Modules\Xot\Filament\Resources\XotBaseResource;
 
-class ProfileResource extends Resource
+class ProfileResource extends XotBaseResource
 {
-    use HasPageSidebar;
-
     protected static ?string $model = Profile::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
@@ -24,6 +21,36 @@ class ProfileResource extends Resource
     {
         return $form
             ->schema([
+                Forms\Components\TextInput::make('type')
+                    ->maxLength(255)
+                    ->default(null),
+                Forms\Components\TextInput::make('first_name')
+                    ->maxLength(191)
+                    ->default(null),
+                Forms\Components\TextInput::make('last_name')
+                    ->maxLength(191)
+                    ->default(null),
+                Forms\Components\TextInput::make('full_name')
+                    ->maxLength(191)
+                    ->default(null),
+                Forms\Components\TextInput::make('email')
+                    ->email()
+                    ->maxLength(191)
+                    ->default(null),
+                Forms\Components\TextInput::make('user_id')
+                    ->maxLength(36)
+                    ->default(null),
+                Forms\Components\TextInput::make('updated_by')
+                    ->maxLength(36)
+                    ->default(null),
+                Forms\Components\TextInput::make('created_by')
+                    ->maxLength(36)
+                    ->default(null),
+                Forms\Components\TextInput::make('deleted_by')
+                    ->maxLength(36)
+                    ->default(null),
+                Forms\Components\Toggle::make('is_active')
+                    ->required(),
             ]);
     }
 
@@ -31,6 +58,41 @@ class ProfileResource extends Resource
     {
         return $table
             ->columns([
+                Tables\Columns\TextColumn::make('id')
+                    ->label('ID')
+                    ->searchable(),
+                Tables\Columns\TextColumn::make('type')
+                    ->searchable(),
+                Tables\Columns\TextColumn::make('first_name')
+                    ->searchable(),
+                Tables\Columns\TextColumn::make('last_name')
+                    ->searchable(),
+                Tables\Columns\TextColumn::make('full_name')
+                    ->searchable(),
+                Tables\Columns\TextColumn::make('email')
+                    ->searchable(),
+                Tables\Columns\TextColumn::make('created_at')
+                    ->dateTime()
+                    ->sortable()
+                    ->toggleable(isToggledHiddenByDefault: true),
+                Tables\Columns\TextColumn::make('updated_at')
+                    ->dateTime()
+                    ->sortable()
+                    ->toggleable(isToggledHiddenByDefault: true),
+                Tables\Columns\TextColumn::make('user_id')
+                    ->searchable(),
+                Tables\Columns\TextColumn::make('updated_by')
+                    ->searchable(),
+                Tables\Columns\TextColumn::make('created_by')
+                    ->searchable(),
+                Tables\Columns\TextColumn::make('deleted_at')
+                    ->dateTime()
+                    ->sortable()
+                    ->toggleable(isToggledHiddenByDefault: true),
+                Tables\Columns\TextColumn::make('deleted_by')
+                    ->searchable(),
+                Tables\Columns\IconColumn::make('is_active')
+                    ->boolean(),
             ])
             ->filters([
             ])

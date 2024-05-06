@@ -4,6 +4,9 @@ declare(strict_types=1);
 
 namespace Modules\Gdpr\Models;
 
+use Spatie\MediaLibrary\HasMedia;
+use Spatie\MediaLibrary\InteractsWithMedia;
+
 // use Modules\User\Models\BaseProfile;
 
 /**
@@ -43,8 +46,16 @@ namespace Modules\Gdpr\Models;
  *
  * @mixin \Eloquent
  */
-class Profile extends BaseModel
+class Profile extends BaseModel implements HasMedia
 {
+    use InteractsWithMedia;
     /** @var string */
     protected $connection = 'gdpr';
+
+    protected $fillable = [
+        'first_name',
+        'last_name',
+        'email',
+        'user_id',
+    ];
 }
