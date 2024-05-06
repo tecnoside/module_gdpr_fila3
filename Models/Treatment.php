@@ -1,4 +1,7 @@
 <?php
+/**
+ * @see https://github.com/foothing/laravel-gdpr-consent
+ */
 
 declare(strict_types=1);
 
@@ -41,7 +44,12 @@ class Treatment extends BaseModel
 {
     use HasUuids;
 
-    protected $fillable = [''];
+    protected $fillable = [
+        'active',
+        'required',
+        'name',
+        'description',
+    ];
 
     // protected $table = 'treatment';
     public $incrementing = false;
