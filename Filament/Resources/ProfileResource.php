@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Gdpr\Filament\Resources;
 
+use Filament\Forms;
 use Filament\Forms\Form;
 use Filament\Tables;
 use Filament\Tables\Table;
