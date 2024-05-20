@@ -1,4 +1,7 @@
 <?php
+/**
+ * @see https://github.com/foothing/laravel-gdpr-consent
+ */
 
 declare(strict_types=1);
 
@@ -22,7 +25,6 @@ use function Safe\json_encode;
  * @property string $payload
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
- *                                                       <<<<EAD
  * @property Consent|null $consent
  *
  * @method static \Modules\Gdpr\Database\Factories\EventFactory factory($count = null, $state = [])
