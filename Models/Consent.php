@@ -19,6 +19,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property Treatment|null                  $treatment
+ *
  * @method static \Modules\Gdpr\Database\Factories\ConsentFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   newQuery()
@@ -28,14 +29,17 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereSubjectId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereTreatmentId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedAt($value)
- * @property string|null $updated_by
- * @property string|null $created_by
+ *
+ * @property string|null                     $updated_by
+ * @property string|null                     $created_by
  * @property \Illuminate\Support\Carbon|null $deleted_at
- * @property string|null $deleted_by
+ * @property string|null                     $deleted_by
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|Consent whereCreatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent whereDeletedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent whereDeletedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent whereUpdatedBy($value)
+ *
  * @mixin \Eloquent
  */
 class Consent extends BaseModel
