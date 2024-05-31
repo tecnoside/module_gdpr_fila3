@@ -10,6 +10,8 @@ use Spatie\MediaLibrary\InteractsWithMedia;
 // use Modules\User\Models\BaseProfile;
 
 /**
+ * 
+ *
  * @property int                             $id
  * @property string|null                     $type
  * @property string|null                     $first_name
@@ -24,7 +26,6 @@ use Spatie\MediaLibrary\InteractsWithMedia;
  * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property string|null                     $deleted_by
  * @property int                             $is_active
- *
  * @method static \Modules\Gdpr\Database\Factories\ProfileFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newQuery()
@@ -43,7 +44,16 @@ use Spatie\MediaLibrary\InteractsWithMedia;
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUpdatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUserId($value)
- *
+ * @property string|null $gender
+ * @property string|null $phone
+ * @property string|null $tax_code
+ * @property string|null $vat_number
+ * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Spatie\MediaLibrary\MediaCollections\Models\Media> $media
+ * @property-read int|null $media_count
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile whereGender($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile wherePhone($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile whereTaxCode($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile whereVatNumber($value)
  * @mixin \Eloquent
  */
 class Profile extends BaseModel implements HasMedia
