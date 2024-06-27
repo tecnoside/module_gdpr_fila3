@@ -5,7 +5,7 @@ declare(strict_types=1);
 use Illuminate\Database\Schema\Blueprint;
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
-class CreateTreatmentsTable extends XotBaseMigration
+class CreateConsentsTable extends XotBaseMigration
 {
     /**
      * Run the migrations.
@@ -17,14 +17,13 @@ class CreateTreatmentsTable extends XotBaseMigration
         $this->tableCreate(
             function (Blueprint $table): void {
                 $table->uuid('id')->primary();
-                $table->boolean('active')->default(true);
-                $table->boolean('required')->default(true);
-                $table->string('name')->unique();
-                $table->text('description');
-                $table->string('documentVersion')->nullable()->default(null);
-                $table->string('documentUrl')->nullable()->default(null);
-                $table->tinyInteger('weight');
+                $table->uuid('treatment_id');
+                // $table->foreignId('treatment_id')->nullable()->index();
+                $table->string('subject_id');
                 $table->timestamps();
+                // $table->unique(['subject_id', 'treatment_id']);
+
+                // $table->foreign('treatment_id')->references('id')->on('gdpr_treatment');
             }
         );
 
@@ -34,6 +33,7 @@ class CreateTreatmentsTable extends XotBaseMigration
                 // if (! $this->hasColumn('email')) {
                 //    $table->string('email')->nullable();
                 // }
+                $this->updateTimestamps(table: $table, hasSoftDeletes: true);
             }
         );
     }

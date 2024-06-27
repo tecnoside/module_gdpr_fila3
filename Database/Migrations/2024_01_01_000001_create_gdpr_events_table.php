@@ -51,6 +51,7 @@ class CreateGdprEventsTable extends XotBaseMigration
                 // if (! $this->hasColumn('email')) {
                 //    $table->string('email')->nullable();
                 // }
+                $this->updateTimestamps(table: $table, hasSoftDeletes: true);
             }
         );
     }
