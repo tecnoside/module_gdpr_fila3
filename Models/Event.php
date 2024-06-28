@@ -40,6 +40,19 @@ use function Safe\json_encode;
  * @method static Builder|Event                                 whereSubjectId($value)
  * @method static Builder|Event                                 whereTreatmentId($value)
  * @method static Builder|Event                                 whereUpdatedAt($value)
+<<<<<<< HEAD
+=======
+ *
+ * @property string|null                     $updated_by
+ * @property string|null                     $created_by
+ * @property \Illuminate\Support\Carbon|null $deleted_at
+ * @property string|null                     $deleted_by
+ *
+ * @method static \Illuminate\Database\Eloquent\Builder|Event whereCreatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Event whereDeletedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Event whereDeletedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Event whereUpdatedBy($value)
+>>>>>>> 76348cc6b642ef946f57e308db4e1c6210448bea
  *
  * @mixin \Eloquent
  */
