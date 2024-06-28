@@ -26,8 +26,8 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereSubjectId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereTreatmentId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedAt($value)
-<<<<<<< HEAD
-=======
+ *                                                                                                    <<<<<<< HEAD
+ *                                                                                                    =======
  *
  * @property string|null                     $updated_by
  * @property string|null                     $created_by
@@ -38,7 +38,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method static \Illuminate\Database\Eloquent\Builder|Consent whereDeletedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent whereDeletedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent whereUpdatedBy($value)
->>>>>>> 76348cc6b642ef946f57e308db4e1c6210448bea
+ *                                                                                     >>>>>>> 76348cc6b642ef946f57e308db4e1c6210448bea
  *
  * @mixin \Eloquent
  */

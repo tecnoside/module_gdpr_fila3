@@ -34,8 +34,8 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  * @method static Builder|Treatment                                 whereRequired($value)
  * @method static Builder|Treatment                                 whereUpdatedAt($value)
  * @method static Builder|Treatment                                 whereWeight($value)
-<<<<<<< HEAD
-=======
+ *                                                                                                      <<<<<<< HEAD
+ *                                                                                                      =======
  *
  * @property string|null                     $updated_by
  * @property string|null                     $created_by
@@ -46,7 +46,7 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment whereDeletedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment whereDeletedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment whereUpdatedBy($value)
->>>>>>> 76348cc6b642ef946f57e308db4e1c6210448bea
+ *                                                                                       >>>>>>> 76348cc6b642ef946f57e308db4e1c6210448bea
  *
  * @mixin \Eloquent
  */
