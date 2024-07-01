@@ -37,7 +37,7 @@
         "nunomaduro/collision": "^7.10",
         "nunomaduro/phpinsights": "^2.11",
         "orchestra/pest-plugin-testbench": "*",
-        "orchestra/testbench": "^8.22",
+        "orchestra/testbench": "*",
         "pestphp/pest": "^2.34",
         "psalm/plugin-laravel": "^2.8",
         "rector/rector": "*",
