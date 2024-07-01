@@ -7,31 +7,32 @@ namespace Modules\Gdpr\Models;
 use Modules\User\Models\BaseProfile as UserBaseProfile;
 
 /**
-<<<<<<< HEAD
- * @property int                             $id
- * @property string|null                     $type
- * @property string|null                     $first_name
- * @property string|null                     $last_name
- * @property string|null                     $full_name
- * @property string|null                     $email
-<<<<<<< HEAD
- * @property int                             $id
- * @property string|null                     $type
- * @property string|null                     $first_name
- * @property string|null                     $last_name
- * @property string|null                     $full_name
- * @property string|null                     $email
-=======
->>>>>>> 76348cc6b642ef946f57e308db4e1c6210448bea
- * @property \Illuminate\Support\Carbon|null $created_at
- * @property \Illuminate\Support\Carbon|null $updated_at
- * @property string|null                     $user_id
- * @property string|null                     $updated_by
- * @property string|null                     $created_by
- * @property \Illuminate\Support\Carbon|null $deleted_at
- * @property string|null                     $deleted_by
- * @property int                             $is_active
-=======
+ * <<<<<<< HEAD.
+ *
+ * @property int                                                                                                           $id
+ * @property string|null                                                                                                   $type
+ * @property string|null                                                                                                   $first_name
+ * @property string|null                                                                                                   $last_name
+ * @property string|null                                                                                                   $full_name
+ * @property string|null                                                                                                   $email
+ *                                                                                                                                                    <<<<<<< HEAD
+ * @property int                                                                                                           $id
+ * @property string|null                                                                                                   $type
+ * @property string|null                                                                                                   $first_name
+ * @property string|null                                                                                                   $last_name
+ * @property string|null                                                                                                   $full_name
+ * @property string|null                                                                                                   $email
+ *                                                                                                                                                    =======
+ *                                                                                                                                                    >>>>>>> 76348cc6b642ef946f57e308db4e1c6210448bea
+ * @property \Illuminate\Support\Carbon|null                                                                               $created_at
+ * @property \Illuminate\Support\Carbon|null                                                                               $updated_at
+ * @property string|null                                                                                                   $user_id
+ * @property string|null                                                                                                   $updated_by
+ * @property string|null                                                                                                   $created_by
+ * @property \Illuminate\Support\Carbon|null                                                                               $deleted_at
+ * @property string|null                                                                                                   $deleted_by
+ * @property int                                                                                                           $is_active
+ *                                                                                                                                                    =======
  * @property int                                                                                                           $id
  * @property string|null                                                                                                   $type
  * @property string|null                                                                                                   $first_name
@@ -68,7 +69,7 @@ use Modules\User\Models\BaseProfile as UserBaseProfile;
  * @property int|null                                                                                                      $teams_count
  * @property \Modules\User\Models\User|null                                                                                $user
  * @property string|null                                                                                                   $user_name
->>>>>>> e6a5a51959f72a65397df2f46b77b60d58fe8049
+ *                                                                                                                                                    >>>>>>> e6a5a51959f72a65397df2f46b77b60d58fe8049
  *
  * @method static \Modules\Gdpr\Database\Factories\ProfileFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newModelQuery()
@@ -90,29 +91,30 @@ use Modules\User\Models\BaseProfile as UserBaseProfile;
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUpdatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUserId($value)
-<<<<<<< HEAD
+ *                                                                                                              <<<<<<< HEAD
  *
-<<<<<<< HEAD
- * @property float       $credits
- * @property string|null $slug
- * @property string|null $extra
-=======
+ * <<<<<<< HEAD
+ *
+ * @property float                                                                                                                             $credits
+ * @property string|null                                                                                                                       $slug
+ * @property string|null                                                                                                                       $extra
+ *                                                                                                                                                          =======
  * @property string|null                                                                                                                       $gender
  * @property string|null                                                                                                                       $phone
  * @property string|null                                                                                                                       $tax_code
  * @property string|null                                                                                                                       $vat_number
  * @property \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Spatie\MediaLibrary\MediaCollections\Models\Media> $media
  * @property int|null                                                                                                                          $media_count
->>>>>>> 76348cc6b642ef946f57e308db4e1c6210448bea
+ *                                                                                                                                                          >>>>>>> 76348cc6b642ef946f57e308db4e1c6210448bea
  *
  * @method static \Illuminate\Database\Eloquent\Builder|Profile whereCredits($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile whereExtra($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile whereSlug($value)
-=======
- * @method static Builder|BaseProfile                             withExtraAttributes()
- * @method static Builder|BaseProfile                             withoutPermission($permissions)
- * @method static Builder|BaseProfile                             withoutRole($roles, $guard = null)
->>>>>>> e6a5a51959f72a65397df2f46b77b60d58fe8049
+ *                                                                                                 =======
+ * @method static Builder|BaseProfile                           withExtraAttributes()
+ * @method static Builder|BaseProfile                           withoutPermission($permissions)
+ * @method static Builder|BaseProfile                           withoutRole($roles, $guard = null)
+ *                                                                                                 >>>>>>> e6a5a51959f72a65397df2f46b77b60d58fe8049
  *
  * @mixin \Eloquent
  */
