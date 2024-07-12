@@ -7,6 +7,8 @@ namespace Modules\Gdpr\Models;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 
 /**
+ * 
+ *
  * @property string                          $id
  * @property int                             $active
  * @property int                             $required
@@ -21,7 +23,6 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  * @property string|null                     $created_by
  * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property string|null                     $deleted_by
- *
  * @method static \Modules\Gdpr\Database\Factories\TreatmentFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment   newQuery()
@@ -40,7 +41,6 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment   whereUpdatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment   whereWeight($value)
- *
  * @mixin \Eloquent
  */
 class Treatment extends BaseModel
