@@ -34,22 +34,6 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  * @method static Builder|Treatment                                 whereRequired($value)
  * @method static Builder|Treatment                                 whereUpdatedAt($value)
  * @method static Builder|Treatment                                 whereWeight($value)
-<<<<<<< HEAD
- * @method static Builder|Treatment                                 newModelQuery()
- * @method static Builder|Treatment                                 newQuery()
- * @method static Builder|Treatment                                 query()
- * @method static Builder|Treatment                                 whereActive($value)
- * @method static Builder|Treatment                                 whereCreatedAt($value)
- * @method static Builder|Treatment                                 whereDescription($value)
- * @method static Builder|Treatment                                 whereDocumentUrl($value)
- * @method static Builder|Treatment                                 whereDocumentVersion($value)
- * @method static Builder|Treatment                                 whereId($value)
- * @method static Builder|Treatment                                 whereName($value)
- * @method static Builder|Treatment                                 whereRequired($value)
- * @method static Builder|Treatment                                 whereUpdatedAt($value)
- * @method static Builder|Treatment                                 whereWeight($value)
-=======
->>>>>>> cbe9065 (Lint)
  *
  * @mixin \Eloquent
  */

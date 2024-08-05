@@ -46,17 +46,10 @@ namespace Modules\Gdpr\Models;
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUpdatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUserId($value)
-<<<<<<< HEAD
- *                                                                                                    =======
- *
- * @property string|null $deleted_by
- * @property int         $is_active
-=======
  *
  * @property float       $credits
  * @property string|null $slug
  * @property string|null $extra
->>>>>>> cbe9065 (Lint)
  *
  * @method static \Modules\Gdpr\Database\Factories\ProfileFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newModelQuery()
