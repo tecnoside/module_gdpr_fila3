@@ -46,6 +46,7 @@ namespace Modules\Gdpr\Models;
  * @method static \Illuminate\Database\Eloquent\Builder|Profile whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile whereUpdatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile whereUserId($value)
+<<<<<<< HEAD
  *                                                                                  =======
  *
  * @property string|null $deleted_by
@@ -70,6 +71,16 @@ namespace Modules\Gdpr\Models;
  * @method static \Illuminate\Database\Eloquent\Builder|Profile whereUpdatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile whereUserId($value)
  *                                                                                  >>>>>>> fa4ebca (Lint)
+=======
+ *
+ * @property float $credits
+ * @property string|null $slug
+ * @property string|null $extra
+ *
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile whereCredits($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile whereExtra($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile whereSlug($value)
+>>>>>>> b78960d (Dusting)
  *
  * @mixin \Eloquent
  */

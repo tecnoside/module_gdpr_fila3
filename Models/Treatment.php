@@ -34,6 +34,7 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  * @method static Builder|Treatment whereRequired($value)
  * @method static Builder|Treatment whereUpdatedAt($value)
  * @method static Builder|Treatment whereWeight($value)
+<<<<<<< HEAD
  * @method static Builder|Treatment newModelQuery()
  * @method static Builder|Treatment newQuery()
  * @method static Builder|Treatment query()
@@ -47,6 +48,8 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  * @method static Builder|Treatment whereRequired($value)
  * @method static Builder|Treatment whereUpdatedAt($value)
  * @method static Builder|Treatment whereWeight($value)
+=======
+>>>>>>> b78960d (Dusting)
  *
  * @mixin \Eloquent
  */

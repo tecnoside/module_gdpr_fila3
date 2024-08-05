@@ -38,6 +38,7 @@ use function Safe\json_encode;
  * @method static Builder|Event whereSubjectId($value)
  * @method static Builder|Event whereTreatmentId($value)
  * @method static Builder|Event whereUpdatedAt($value)
+<<<<<<< HEAD
  *                                                     =======
  *
  * @property Consent|null $consent
@@ -56,6 +57,8 @@ use function Safe\json_encode;
  * @method static Builder|Event whereTreatmentId($value)
  * @method static Builder|Event whereUpdatedAt($value)
  *                                                     >>>>>>> fa4ebca (Lint)
+=======
+>>>>>>> b78960d (Dusting)
  *
  * @mixin \Eloquent
  */
