@@ -87,8 +87,6 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "require": {
-        "statikbe/laravel-cookie-consent": "*"
-    }
+    "prefer-stable": true
+
 }
