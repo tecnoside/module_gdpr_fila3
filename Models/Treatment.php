@@ -7,6 +7,8 @@ namespace Modules\Gdpr\Models;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 
 /**
+ * Modules\Gdpr\Models\Treatment.
+ *
  * @property string                          $id
  * @property int                             $active
  * @property int                             $required
