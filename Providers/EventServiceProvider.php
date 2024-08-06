@@ -25,11 +25,7 @@ class EventServiceProvider extends BaseEventServiceProvider
     /**
      * Configure the proper event listeners for email verification.
      */
-<<<<<<< HEAD
     protected function configureEmailVerification(): void
     {
     }
-=======
-    protected function configureEmailVerification(): void {}
->>>>>>> 63cb37d (feat(EventServiceProvider.php): create EventServiceProvider class to handle event mappings and email verification configuration in the GDPR module)
 }
