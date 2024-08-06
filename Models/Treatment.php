@@ -6,8 +6,6 @@ namespace Modules\Gdpr\Models;
 
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 
-<<<<<<< HEAD
-=======
 /**
  * Modules\Gdpr\Models\Treatment.
  *
@@ -52,7 +50,6 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  *
  * @mixin \Eloquent
  */
->>>>>>> b8dafa3 (chore(Consent.php): update property indentation and alignment for better readability)
 class Treatment extends BaseModel
 {
     use HasUuids;

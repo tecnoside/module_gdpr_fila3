@@ -13,8 +13,6 @@ use Illuminate\Support\Facades\Crypt;
 
 use function Safe\json_encode;
 
-<<<<<<< HEAD
-=======
 /**
  * Modules\Gdpr\Models\Event.
  *
@@ -27,7 +25,6 @@ use function Safe\json_encode;
  * @property string                          $payload
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
- *                                                         <<<<EAD
  * @property Consent|null                    $consent
  *
  * @method static \Modules\Gdpr\Database\Factories\EventFactory factory($count = null, $state = [])
@@ -43,7 +40,6 @@ use function Safe\json_encode;
  * @method static Builder|Event                                 whereSubjectId($value)
  * @method static Builder|Event                                 whereTreatmentId($value)
  * @method static Builder|Event                                 whereUpdatedAt($value)
- *                                                                                                  =======
  *
  * @property Consent|null $consent
  *
@@ -60,11 +56,9 @@ use function Safe\json_encode;
  * @method static Builder|Event                                 whereSubjectId($value)
  * @method static Builder|Event                                 whereTreatmentId($value)
  * @method static Builder|Event                                 whereUpdatedAt($value)
- *                                                                                                  >>>>>>> fa4ebca (Lint)
  *
  * @mixin \Eloquent
  */
->>>>>>> b8dafa3 (chore(Consent.php): update property indentation and alignment for better readability)
 class Event extends BaseModel
 {
     use HasUuids;
