@@ -25,6 +25,12 @@ use function Safe\json_encode;
  * @property string                          $payload
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+ *                                                         <<<<EAD
+>>>>>>> ae0b63a (fix(Event.php): resolve conflict markers in the file to clean up the code and prevent syntax errors)
  * @property Consent|null                    $consent
  *
  * @method static \Modules\Gdpr\Database\Factories\EventFactory factory($count = null, $state = [])
@@ -41,6 +47,13 @@ use function Safe\json_encode;
  * @method static Builder|Event                                 whereTreatmentId($value)
  * @method static Builder|Event                                 whereUpdatedAt($value)
  *
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 1927dd2 (conflict)
+=======
+>>>>>>> a8c3108 (up)
+>>>>>>> ae0b63a (fix(Event.php): resolve conflict markers in the file to clean up the code and prevent syntax errors)
  * @property Consent|null $consent
  *
  * @method static \Modules\Gdpr\Database\Factories\EventFactory factory($count = null, $state = [])
