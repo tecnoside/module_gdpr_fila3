@@ -68,15 +68,8 @@ use Modules\User\Models\BaseProfile as UserBaseProfile;
  * @method static Builder|BaseProfile                             withoutPermission($permissions)
  * @method static Builder|BaseProfile                             withoutRole($roles, $guard = null)
  *
-<<<<<<< HEAD
  * @property string|null $deleted_by
  * @property int         $is_active
-=======
- * @property float                           $credits
- * @property string|null                     $slug
- * @property \Modules\User\Models\DeviceUser $pivot
- * @property \Modules\User\Models\Membership $membership
->>>>>>> ed9f0d6 (Lint)
  *
  * @method static \Modules\Gdpr\Database\Factories\ProfileFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newModelQuery()
