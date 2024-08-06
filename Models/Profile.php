@@ -7,6 +7,8 @@ namespace Modules\Gdpr\Models;
 use Modules\User\Models\BaseProfile as UserBaseProfile;
 
 /**
+ * 
+ *
  * @property int                                                                                                           $id
  * @property string|null                                                                                                   $type
  * @property string|null                                                                                                   $first_name
@@ -43,7 +45,6 @@ use Modules\User\Models\BaseProfile as UserBaseProfile;
  * @property int|null                                                                                                      $teams_count
  * @property \Modules\User\Models\User|null                                                                                $user
  * @property string|null                                                                                                   $user_name
- *
  * @method static \Modules\Gdpr\Database\Factories\ProfileFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newQuery()
@@ -67,10 +68,8 @@ use Modules\User\Models\BaseProfile as UserBaseProfile;
  * @method static Builder|BaseProfile                             withExtraAttributes()
  * @method static Builder|BaseProfile                             withoutPermission($permissions)
  * @method static Builder|BaseProfile                             withoutRole($roles, $guard = null)
- *
  * @property string|null $deleted_by
  * @property int         $is_active
- *
  * @method static \Modules\Gdpr\Database\Factories\ProfileFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newQuery()
@@ -89,7 +88,8 @@ use Modules\User\Models\BaseProfile as UserBaseProfile;
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUpdatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUserId($value)
- *
+ * @property-read \Modules\User\Models\DeviceUser $pivot
+ * @property-read \Modules\User\Models\Membership $membership
  * @mixin \Eloquent
  */
 class Profile extends UserBaseProfile
