@@ -13,8 +13,6 @@ use Illuminate\Support\Facades\Crypt;
 
 use function Safe\json_encode;
 
-<<<<<<< HEAD
-=======
 /**
  * Modules\Gdpr\Models\Event.
  *
@@ -45,7 +43,6 @@ use function Safe\json_encode;
  *
  * @mixin \Eloquent
  */
->>>>>>> cbe9065 (Lint)
 class Event extends BaseModel
 {
     use HasUuids;

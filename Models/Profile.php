@@ -6,9 +6,6 @@ namespace Modules\Gdpr\Models;
 
 use Modules\User\Models\BaseProfile as UserBaseProfile;
 
-<<<<<<< HEAD
-class Profile extends UserBaseProfile
-=======
 /**
  * @property int                             $id
  * @property string|null                     $type
@@ -49,17 +46,9 @@ class Profile extends UserBaseProfile
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUpdatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUserId($value)
-<<<<<<< HEAD
- *                                                                                                    =======
  *
  * @property string|null $deleted_by
  * @property int         $is_active
-=======
- *
- * @property float       $credits
- * @property string|null $slug
- * @property string|null $extra
->>>>>>> cbe9065 (Lint)
  *
  * @method static \Modules\Gdpr\Database\Factories\ProfileFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newModelQuery()
@@ -79,12 +68,10 @@ class Profile extends UserBaseProfile
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUpdatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUserId($value)
- *                                                                                                    >>>>>>> fa4ebca (Lint)
  *
  * @mixin \Eloquent
  */
-class Profile extends BaseModel
->>>>>>> 9ede1bd (chore(Consent.php, Event.php, Profile.php, Treatment.php, EventServiceProvider.php): resolve linting conflicts and clean up code formatting)
+class Profile extends UserBaseProfile
 {
     /** @var string */
     protected $connection = 'gdpr';
