@@ -27,7 +27,6 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereTreatmentId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedAt($value)
  *
-<<<<<<< HEAD
  * @property Treatment|null $treatment
  *
  * @method static \Modules\Gdpr\Database\Factories\ConsentFactory factory($count = null, $state = [])
@@ -39,10 +38,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereSubjectId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereTreatmentId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedAt($value)
- *                                                                                                    >>>>>>> fa4ebca (Lint)
  *
-=======
->>>>>>> 4f2d271 (chore(Consent.php, Event.php, Profile.php, Treatment.php): remove unnecessary)
  * @mixin \Eloquent
  */
 class Consent extends BaseModel
