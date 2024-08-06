@@ -17,11 +17,14 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  * @property int                             $weight
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
+<<<<<<< HEAD
  * @property string|null                     $updated_by
  * @property string|null                     $created_by
  * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property string|null                     $deleted_by
  *
+=======
+>>>>>>> 126e2b4 (.)
  * @method static \Modules\Gdpr\Database\Factories\TreatmentFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment   newQuery()
