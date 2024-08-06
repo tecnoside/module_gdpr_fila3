@@ -29,6 +29,7 @@ use function Safe\json_encode;
  * @property Consent|null                    $consent
  *
  * @method static \Modules\Gdpr\Database\Factories\EventFactory factory($count = null, $state = [])
+<<<<<<< HEAD
  * @method static Builder|Event                                 newModelQuery()
  * @method static Builder|Event                                 newQuery()
  * @method static Builder|Event                                 query()
@@ -42,10 +43,27 @@ use function Safe\json_encode;
  * @method static Builder|Event                                 whereTreatmentId($value)
  * @method static Builder|Event                                 whereUpdatedAt($value)
  *                                                                                                  =======
+=======
+ * @method static Builder|Event newModelQuery()
+ * @method static Builder|Event newQuery()
+ * @method static Builder|Event query()
+ * @method static Builder|Event whereAction($value)
+ * @method static Builder|Event whereConsentId($value)
+ * @method static Builder|Event whereCreatedAt($value)
+ * @method static Builder|Event whereId($value)
+ * @method static Builder|Event whereIp($value)
+ * @method static Builder|Event wherePayload($value)
+ * @method static Builder|Event whereSubjectId($value)
+ * @method static Builder|Event whereTreatmentId($value)
+ * @method static Builder|Event whereUpdatedAt($value)
+<<<<<<< HEAD
+ *                                                     =======
+>>>>>>> 66420c6 (chore(Consent.php, Event.php, Profile.php, Treatment.php): resolve git)
  *
  * @property Consent|null $consent
  *
  * @method static \Modules\Gdpr\Database\Factories\EventFactory factory($count = null, $state = [])
+<<<<<<< HEAD
  * @method static Builder|Event                                 newModelQuery()
  * @method static Builder|Event                                 newQuery()
  * @method static Builder|Event                                 query()
@@ -59,6 +77,23 @@ use function Safe\json_encode;
  * @method static Builder|Event                                 whereTreatmentId($value)
  * @method static Builder|Event                                 whereUpdatedAt($value)
  *                                                                                                  >>>>>>> fa4ebca (Lint)
+=======
+ * @method static Builder|Event newModelQuery()
+ * @method static Builder|Event newQuery()
+ * @method static Builder|Event query()
+ * @method static Builder|Event whereAction($value)
+ * @method static Builder|Event whereConsentId($value)
+ * @method static Builder|Event whereCreatedAt($value)
+ * @method static Builder|Event whereId($value)
+ * @method static Builder|Event whereIp($value)
+ * @method static Builder|Event wherePayload($value)
+ * @method static Builder|Event whereSubjectId($value)
+ * @method static Builder|Event whereTreatmentId($value)
+ * @method static Builder|Event whereUpdatedAt($value)
+ *                                                     >>>>>>> fa4ebca (Lint)
+=======
+>>>>>>> b78960d (Dusting)
+>>>>>>> 66420c6 (chore(Consent.php, Event.php, Profile.php, Treatment.php): resolve git)
  *
  * @mixin \Eloquent
  */
