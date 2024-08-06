@@ -34,7 +34,6 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  * @method static Builder|Treatment                                 whereRequired($value)
  * @method static Builder|Treatment                                 whereUpdatedAt($value)
  * @method static Builder|Treatment                                 whereWeight($value)
-<<<<<<< HEAD
  * @method static Builder|Treatment                                 newModelQuery()
  * @method static Builder|Treatment                                 newQuery()
  * @method static Builder|Treatment                                 query()
@@ -48,8 +47,6 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  * @method static Builder|Treatment                                 whereRequired($value)
  * @method static Builder|Treatment                                 whereUpdatedAt($value)
  * @method static Builder|Treatment                                 whereWeight($value)
-=======
->>>>>>> 4f2d271 (chore(Consent.php, Event.php, Profile.php, Treatment.php): remove unnecessary)
  *
  * @mixin \Eloquent
  */

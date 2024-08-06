@@ -47,14 +47,8 @@ use Modules\User\Models\BaseProfile as UserBaseProfile;
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUpdatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUserId($value)
  *
-<<<<<<< HEAD
  * @property string|null $deleted_by
  * @property int         $is_active
-=======
- * @property float       $credits
- * @property string|null $slug
- * @property string|null $extra
->>>>>>> 4f2d271 (chore(Consent.php, Event.php, Profile.php, Treatment.php): remove unnecessary)
  *
  * @method static \Modules\Gdpr\Database\Factories\ProfileFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newModelQuery()
