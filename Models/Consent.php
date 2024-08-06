@@ -13,6 +13,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @property string                          $subject_id
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
+<<<<<<< HEAD
  * @property string|null                     $updated_by
  * @property string|null                     $created_by
  * @property \Illuminate\Support\Carbon|null $deleted_at
@@ -20,18 +21,43 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @property Treatment|null                  $treatment
  *
  * @method static \Modules\Gdpr\Database\Factories\ConsentFactory factory($count = null, $state = [])
+=======
+<<<<<<< HEAD
+ * @property Treatment|null $treatment
+ *
+ * @method static \Modules\Gdpr\Database\Factories\ConsentFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent whereSubjectId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent whereTreatmentId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent whereUpdatedAt($value)
+=======
+ * @property Treatment|null                  $treatment
+ *
+ * @method static \Modules\Gdpr\Database\Factories\ConsentFactory factory($count = null, $state = [])
+>>>>>>> 77b396b (.)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   query()
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereCreatedAt($value)
+<<<<<<< HEAD
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereCreatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereDeletedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereDeletedBy($value)
+=======
+>>>>>>> 77b396b (.)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereSubjectId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereTreatmentId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedAt($value)
+<<<<<<< HEAD
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedBy($value)
+=======
+>>>>>>> fa4ebca (Lint)
+>>>>>>> 77b396b (.)
  *
  * @mixin \Eloquent
  */
