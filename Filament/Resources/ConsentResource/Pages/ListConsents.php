@@ -16,8 +16,6 @@ class ListConsents extends ListRecords
 
     public TableLayoutEnum $layoutView = TableLayoutEnum::GRID;
 
-<<<<<<< HEAD
-=======
     protected function getTableHeaderActions(): array
     {
         return [
@@ -26,14 +24,8 @@ class ListConsents extends ListRecords
     }
 
     protected function getHeaderActions(): array
->>>>>>> ef8f09d (up)
     {
         return [
-            TableLayoutToggleTableAction::make(),
-        ];
-    }
-
-    protected function getHeaderActions(): array
             Actions\CreateAction::make(),
         ];
     }
