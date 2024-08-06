@@ -6,6 +6,11 @@ namespace Modules\Gdpr\Filament\Clusters\Profile\Resources;
 
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
+<<<<<<< HEAD
+=======
+use Filament\Tables;
+use Filament\Tables\Table;
+>>>>>>> 18269eb (.)
 use Modules\Gdpr\Filament\Clusters\Profile as ProfileCluster;
 use Modules\Gdpr\Filament\Clusters\Profile\Resources\ConsentResource\Pages;
 use Modules\Gdpr\Models\Consent;
@@ -25,6 +30,28 @@ class ConsentResource extends Resource
             ]);
     }
 
+<<<<<<< HEAD
+=======
+    public static function table(Table $table): Table
+    {
+        return $table
+            ->columns([
+            ])
+            ->filters([
+            ])
+            ->actions([
+                Tables\Actions\EditAction::make(),
+            ])
+            ->bulkActions([
+                Tables\Actions\BulkActionGroup::make([
+                    Tables\Actions\DeleteBulkAction::make(),
+                ]),
+            ])
+            ->emptyStateActions([
+            ]);
+    }
+
+>>>>>>> 18269eb (.)
     public static function getRelations(): array
     {
         return [
