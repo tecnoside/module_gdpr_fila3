@@ -68,14 +68,30 @@ use Modules\User\Models\BaseProfile as UserBaseProfile;
  * @method static Builder|BaseProfile                             withoutPermission($permissions)
  * @method static Builder|BaseProfile                             withoutRole($roles, $guard = null)
  *
- * @property float                           $credits
- * @property string|null                     $slug
+ * @property string|null $deleted_by
+ * @property int         $is_active
+ *
+ * @method static \Modules\Gdpr\Database\Factories\ProfileFactory factory($count = null, $state = [])
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile   newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile   newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile   query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereCreatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereDeletedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereDeletedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereEmail($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereFirstName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereFullName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereIsActive($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereLastName($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereType($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUpdatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUserId($value)
+ *
  * @property \Modules\User\Models\DeviceUser $pivot
  * @property \Modules\User\Models\Membership $membership
- *
- * @method static \Illuminate\Database\Eloquent\Builder|Profile whereCredits($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Profile whereExtra($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Profile whereSlug($value)
  *
  * @mixin \Eloquent
  */
