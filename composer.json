@@ -21,6 +21,9 @@
             "Modules\\Gdpr\\": ""
         }
     },
+    "require": {
+        "statikbe/laravel-cookie-consent": "*"
+    },
     "require_comment": {
         "filament/filament": "^3.2",
         "illuminate/contracts": "*",
@@ -28,6 +31,9 @@
         "laraxot/module_xot_fila3": "dev-master",
         "mhmiton/laravel-modules-livewire": "^2.3",
         "thecodingmachine/safe": "^2.5"
+    },
+    "require-dev":{
+
     },
     "require-dev_comment": {
         "driftingly/rector-laravel": "^0.26.2",
@@ -81,8 +87,6 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "require": {
-        "statikbe/laravel-cookie-consent": "*"
-    }
+    "prefer-stable": true
+
 }
