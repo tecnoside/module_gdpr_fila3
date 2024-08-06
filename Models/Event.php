@@ -1,7 +1,10 @@
 <?php
+<<<<<<< HEAD
 /**
  * @see https://github.com/foothing/laravel-gdpr-consent
  */
+=======
+>>>>>>> fb20669 (feat(Models): add new models Consent, Event, Profile, and Treatment to the GDPR module for managing consent, events, profiles, and treatments. Add necessary attributes, relationships, and encryption for sensitive data.)
 
 declare(strict_types=1);
 
@@ -14,6 +17,7 @@ use Illuminate\Support\Facades\Crypt;
 use function Safe\json_encode;
 
 /**
+<<<<<<< HEAD
  * @property string                          $id
  * @property string|null                     $treatment_id
  * @property string|null                     $consent_id
@@ -46,6 +50,34 @@ use function Safe\json_encode;
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereTreatmentId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereUpdatedBy($value)
+=======
+ * Modules\Gdpr\Models\Event.
+ *
+ * @property string $id
+ * @property string|null $treatment_id
+ * @property string|null $consent_id
+ * @property string $subject_id
+ * @property string $ip
+ * @property string $action
+ * @property string $payload
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property Consent|null $consent
+ *
+ * @method static \Modules\Gdpr\Database\Factories\EventFactory factory($count = null, $state = [])
+ * @method static Builder|Event newModelQuery()
+ * @method static Builder|Event newQuery()
+ * @method static Builder|Event query()
+ * @method static Builder|Event whereAction($value)
+ * @method static Builder|Event whereConsentId($value)
+ * @method static Builder|Event whereCreatedAt($value)
+ * @method static Builder|Event whereId($value)
+ * @method static Builder|Event whereIp($value)
+ * @method static Builder|Event wherePayload($value)
+ * @method static Builder|Event whereSubjectId($value)
+ * @method static Builder|Event whereTreatmentId($value)
+ * @method static Builder|Event whereUpdatedAt($value)
+>>>>>>> fb20669 (feat(Models): add new models Consent, Event, Profile, and Treatment to the GDPR module for managing consent, events, profiles, and treatments. Add necessary attributes, relationships, and encryption for sensitive data.)
  *
  * @mixin \Eloquent
  */
