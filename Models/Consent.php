@@ -36,30 +36,30 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @property Treatment|null $treatment
  *
  * @method static \Modules\Gdpr\Database\Factories\ConsentFactory factory($count = null, $state = [])
-<<<<<<< HEAD
- * @method static \Illuminate\Database\Eloquent\Builder|Consent newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Consent newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Consent query()
- * @method static \Illuminate\Database\Eloquent\Builder|Consent whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent whereSubjectId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent whereTreatmentId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent whereUpdatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Consent newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Consent query()
- * @method static \Illuminate\Database\Eloquent\Builder|Consent whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent whereCreatedBy($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent whereDeletedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent whereDeletedBy($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent whereSubjectId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent whereTreatmentId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent whereUpdatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent whereUpdatedBy($value)
-<<<<<<< HEAD
-=======
-=======
+ *                                                                                                    <<<<<<< HEAD
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent   newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent   newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent   query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereSubjectId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereTreatmentId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent   newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent   newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent   query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereCreatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereDeletedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereDeletedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereSubjectId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereTreatmentId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedBy($value)
+ *                                                                                                    <<<<<<< HEAD
+ *                                                                                                    =======
+ *                                                                                                    =======
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   query()
@@ -83,11 +83,10 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  *
  * @property \Modules\Fixcity\Models\Profile|null $creator
  * @property \Modules\Fixcity\Models\Profile|null $updater
->>>>>>> d160aaf (.)
- *
- * @property-read \Modules\Fixcity\Models\Profile|null $creator
- * @property-read \Modules\Fixcity\Models\Profile|null $updater
->>>>>>> 7d67a03 (up)
+ *                                                         >>>>>>> d160aaf (.)
+ * @property \Modules\Fixcity\Models\Profile|null $creator
+ * @property \Modules\Fixcity\Models\Profile|null $updater
+ *                                                         >>>>>>> 7d67a03 (up)
  *
  * @mixin \Eloquent
  */

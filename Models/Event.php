@@ -30,26 +30,26 @@ use function Safe\json_encode;
  * @property Consent|null                    $consent
  *
  * @method static \Modules\Gdpr\Database\Factories\EventFactory factory($count = null, $state = [])
-<<<<<<< HEAD
- * @method static \Illuminate\Database\Eloquent\Builder|Event newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Event newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Event query()
- * @method static \Illuminate\Database\Eloquent\Builder|Event whereAction($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Event whereConsentId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Event whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Event whereCreatedBy($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Event whereDeletedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Event whereDeletedBy($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Event whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Event whereIp($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Event wherePayload($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Event whereSubjectId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Event whereTreatmentId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Event whereUpdatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Event whereUpdatedBy($value)
-<<<<<<< HEAD
-=======
-=======
+ *                                                                                                  <<<<<<< HEAD
+ * @method static \Illuminate\Database\Eloquent\Builder|Event   newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Event   newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Event   query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Event   whereAction($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Event   whereConsentId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Event   whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Event   whereCreatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Event   whereDeletedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Event   whereDeletedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Event   whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Event   whereIp($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Event   wherePayload($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Event   whereSubjectId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Event   whereTreatmentId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Event   whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Event   whereUpdatedBy($value)
+ *                                                                                                  <<<<<<< HEAD
+ *                                                                                                  =======
+ *                                                                                                  =======
  * @method static \Illuminate\Database\Eloquent\Builder|Event   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Event   newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Event   query()
@@ -69,11 +69,10 @@ use function Safe\json_encode;
  *
  * @property \Modules\Fixcity\Models\Profile|null $creator
  * @property \Modules\Fixcity\Models\Profile|null $updater
->>>>>>> d160aaf (.)
- *
- * @property-read \Modules\Fixcity\Models\Profile|null $creator
- * @property-read \Modules\Fixcity\Models\Profile|null $updater
->>>>>>> 7d67a03 (up)
+ *                                                         >>>>>>> d160aaf (.)
+ * @property \Modules\Fixcity\Models\Profile|null $creator
+ * @property \Modules\Fixcity\Models\Profile|null $updater
+ *                                                         >>>>>>> 7d67a03 (up)
  *
  * @mixin \Eloquent
  */
