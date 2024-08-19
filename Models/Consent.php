@@ -36,10 +36,10 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @property Treatment|null $treatment
  *
  * @method static \Modules\Gdpr\Database\Factories\ConsentFactory factory($count = null, $state = [])
-<<<<<<< HEAD
-=======
  *                                                                                                    <<<<<<< HEAD
->>>>>>> origin/dev
+ *                                                                                                    =======
+ *                                                                                                    <<<<<<< HEAD
+ *                                                                                                    >>>>>>> origin/dev
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   query()
@@ -60,8 +60,8 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereTreatmentId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedBy($value)
-<<<<<<< HEAD
-=======
+ *                                                                                                    <<<<<<< HEAD
+ *                                                                                                    =======
  *                                                                                                    <<<<<<< HEAD
  *                                                                                                    =======
  *                                                                                                    =======
@@ -92,7 +92,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @property \Modules\Fixcity\Models\Profile|null $creator
  * @property \Modules\Fixcity\Models\Profile|null $updater
  *                                                         >>>>>>> 7d67a03 (up)
->>>>>>> origin/dev
+ *                                                         >>>>>>> origin/dev
  *
  * @mixin \Eloquent
  */

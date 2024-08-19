@@ -30,10 +30,10 @@ use function Safe\json_encode;
  * @property Consent|null                    $consent
  *
  * @method static \Modules\Gdpr\Database\Factories\EventFactory factory($count = null, $state = [])
-<<<<<<< HEAD
-=======
  *                                                                                                  <<<<<<< HEAD
->>>>>>> origin/dev
+ *                                                                                                  =======
+ *                                                                                                  <<<<<<< HEAD
+ *                                                                                                  >>>>>>> origin/dev
  * @method static \Illuminate\Database\Eloquent\Builder|Event   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Event   newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Event   query()
@@ -50,8 +50,8 @@ use function Safe\json_encode;
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereTreatmentId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereUpdatedBy($value)
-<<<<<<< HEAD
-=======
+ *                                                                                                  <<<<<<< HEAD
+ *                                                                                                  =======
  *                                                                                                  <<<<<<< HEAD
  *                                                                                                  =======
  *                                                                                                  =======
@@ -78,7 +78,7 @@ use function Safe\json_encode;
  * @property \Modules\Fixcity\Models\Profile|null $creator
  * @property \Modules\Fixcity\Models\Profile|null $updater
  *                                                         >>>>>>> 7d67a03 (up)
->>>>>>> origin/dev
+ *                                                         >>>>>>> origin/dev
  *
  * @mixin \Eloquent
  */
