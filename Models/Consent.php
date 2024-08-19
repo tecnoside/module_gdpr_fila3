@@ -56,6 +56,12 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method static \Illuminate\Database\Eloquent\Builder|Consent whereTreatmentId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent whereUpdatedBy($value)
+<<<<<<< HEAD
+=======
+ *
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+>>>>>>> 7d67a03 (up)
  *
  * @mixin \Eloquent
  */

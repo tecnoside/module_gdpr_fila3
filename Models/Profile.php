@@ -92,6 +92,14 @@ use Modules\User\Models\BaseProfile as UserBaseProfile;
  *
  * @property \Modules\User\Models\DeviceUser $pivot
  * @property \Modules\User\Models\Membership $membership
+ * @property string $credits
+ * @property string|null $slug
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
+ *
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile whereCredits($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile whereExtra($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Profile whereSlug($value)
  *
  * @mixin \Eloquent
  */
