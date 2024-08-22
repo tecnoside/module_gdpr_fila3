@@ -11,7 +11,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Modules\\Gdpr\\Providers\\GdprServiceProvider"
+                "Modules\\Gdpr\\Providers\\GdprServiceProvider",
+                "Modules\\Gdpr\\Providers\\Filament\\AdminPanelProvider"
             ],
             "aliases": {}
         }
