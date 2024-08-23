@@ -14,6 +14,8 @@ use Illuminate\Support\Facades\Crypt;
 use function Safe\json_encode;
 
 /**
+ * 
+ *
  * @property string                          $id
  * @property string|null                     $treatment_id
  * @property string|null                     $consent_id
@@ -28,7 +30,6 @@ use function Safe\json_encode;
  * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property string|null                     $deleted_by
  * @property Consent|null                    $consent
- *
  * @method static \Modules\Gdpr\Database\Factories\EventFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Event   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Event   newQuery()
@@ -46,7 +47,8 @@ use function Safe\json_encode;
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereTreatmentId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereUpdatedBy($value)
- *
+ * @property-read \Modules\Fixcity\Models\Profile|null $creator
+ * @property-read \Modules\Fixcity\Models\Profile|null $updater
  * @mixin \Eloquent
  */
 class Event extends BaseModel
