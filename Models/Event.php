@@ -47,9 +47,6 @@ use function Safe\json_encode;
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereUpdatedBy($value)
  *
- * @property \Modules\Fixcity\Models\Profile|null $creator
- * @property \Modules\Fixcity\Models\Profile|null $updater
- *
  * @mixin \Eloquent
  */
 class Event extends BaseModel

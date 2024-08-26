@@ -74,9 +74,6 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment   whereUpdatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment   whereWeight($value)
  *
- * @property \Modules\Fixcity\Models\Profile|null $creator
- * @property \Modules\Fixcity\Models\Profile|null $updater
- *
  * @mixin \Eloquent
  */
 class Treatment extends BaseModel

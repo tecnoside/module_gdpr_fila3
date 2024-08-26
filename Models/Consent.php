@@ -57,9 +57,6 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedBy($value)
  *
- * @property \Modules\Fixcity\Models\Profile|null $creator
- * @property \Modules\Fixcity\Models\Profile|null $updater
- *
  * @mixin \Eloquent
  */
 class Consent extends BaseModel
