@@ -14,11 +14,12 @@ use Illuminate\Support\Facades\Crypt;
 use function Safe\json_encode;
 
 /**
-<<<<<<< HEAD
+ * <<<<<<< HEAD
  * Modules\Gdpr\Models\Event.
  *
-=======
->>>>>>> origin/dev
+ * =======
+ * >>>>>>> origin/dev
+ *
  * @property string                          $id
  * @property string|null                     $treatment_id
  * @property string|null                     $consent_id
@@ -28,7 +29,7 @@ use function Safe\json_encode;
  * @property string                          $payload
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
-<<<<<<< HEAD
+ *                                                         <<<<<<< HEAD
  * @property Consent|null                    $consent
  *
  * @method static \Modules\Gdpr\Database\Factories\EventFactory factory($count = null, $state = [])
@@ -54,7 +55,8 @@ use function Safe\json_encode;
  * @method static \Illuminate\Database\Eloquent\Builder|Event whereDeletedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event whereDeletedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event whereUpdatedBy($value)
-=======
+ *                                                                                   =======
+ *
  * @property string|null                     $updated_by
  * @property string|null                     $created_by
  * @property \Illuminate\Support\Carbon|null $deleted_at
@@ -81,7 +83,7 @@ use function Safe\json_encode;
  *
  * @property \Modules\Idoteca\Models\Profile|null $creator
  * @property \Modules\Idoteca\Models\Profile|null $updater
->>>>>>> origin/dev
+ *                                                         >>>>>>> origin/dev
  *
  * @mixin \Eloquent
  */

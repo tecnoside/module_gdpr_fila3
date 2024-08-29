@@ -8,19 +8,20 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
-<<<<<<< HEAD
+ * <<<<<<< HEAD
  * Modules\Gdpr\Models\Consent.
  *
-=======
->>>>>>> origin/dev
+ * =======
+ * >>>>>>> origin/dev
+ *
  * @property string                          $id
  * @property string                          $treatment_id
  * @property string                          $subject_id
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
-<<<<<<< HEAD
+ *                                                         <<<<<<< HEAD
  * @property Treatment|null                  $treatment
-=======
+ *                                                         =======
  * @property string|null                     $updated_by
  * @property string|null                     $created_by
  * @property \Illuminate\Support\Carbon|null $deleted_at
@@ -42,7 +43,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedBy($value)
  *
  * @property Treatment|null $treatment
->>>>>>> origin/dev
+ *                                     >>>>>>> origin/dev
  *
  * @method static \Modules\Gdpr\Database\Factories\ConsentFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   newModelQuery()
@@ -53,7 +54,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereSubjectId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereTreatmentId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedAt($value)
-<<<<<<< HEAD
+ *                                                                                                    <<<<<<< HEAD
  *
  * @property string|null                     $updated_by
  * @property string|null                     $created_by
@@ -64,23 +65,23 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method static \Illuminate\Database\Eloquent\Builder|Consent whereDeletedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent whereDeletedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent whereUpdatedBy($value)
-=======
- * @method static \Illuminate\Database\Eloquent\Builder|Consent   newModelQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Consent   newQuery()
- * @method static \Illuminate\Database\Eloquent\Builder|Consent   query()
- * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereCreatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereCreatedBy($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereDeletedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereDeletedBy($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereSubjectId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereTreatmentId($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedAt($value)
- * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedBy($value)
+ *                                                                                       =======
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent newModelQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent newQuery()
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent query()
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent whereCreatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent whereCreatedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent whereDeletedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent whereDeletedBy($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent whereId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent whereSubjectId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent whereTreatmentId($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent whereUpdatedAt($value)
+ * @method static \Illuminate\Database\Eloquent\Builder|Consent whereUpdatedBy($value)
  *
  * @property \Modules\Idoteca\Models\Profile|null $creator
  * @property \Modules\Idoteca\Models\Profile|null $updater
->>>>>>> origin/dev
+ *                                                         >>>>>>> origin/dev
  *
  * @mixin \Eloquent
  */
