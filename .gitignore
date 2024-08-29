@@ -16,3 +16,11 @@ package-lock.json
 node_modules
 /*.cache
 .git-blame-ignore-revs
+node_modules
+vendor
+.php-cs-fixer.cache
+.git-blame-ignore-revs
+build/
+vendor/
+build/
+node_modules

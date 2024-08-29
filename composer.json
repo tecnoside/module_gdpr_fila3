@@ -11,7 +11,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Modules\\Gdpr\\Providers\\GdprServiceProvider"
+                "Modules\\Gdpr\\Providers\\GdprServiceProvider",
+                "Modules\\Gdpr\\Providers\\Filament\\AdminPanelProvider"
             ],
             "aliases": {}
         }
@@ -22,6 +23,9 @@
         }
     },
     "require": {
+        "statikbe/laravel-cookie-consent": "*"
+    },
+    "require_comment": {
         "filament/filament": "^3.2",
         "illuminate/contracts": "*",
         "illuminate/support": "*",
@@ -29,7 +33,10 @@
         "mhmiton/laravel-modules-livewire": "^2.3",
         "thecodingmachine/safe": "^2.5"
     },
-    "require-dev": {
+    "require-dev":{
+
+    },
+    "require-dev_comment": {
         "driftingly/rector-laravel": "^0.26.2",
         "enlightn/enlightn": "^2.7",
         "larastan/larastan": "^2.7",
@@ -37,10 +44,10 @@
         "nunomaduro/collision": "^7.10",
         "nunomaduro/phpinsights": "^2.11",
         "orchestra/pest-plugin-testbench": "*",
-        "orchestra/testbench": "^8.22",
+        "orchestra/testbench": "*",
         "pestphp/pest": "^2.34",
         "psalm/plugin-laravel": "^2.8",
-        "rector/rector": "^1.0",
+        "rector/rector": "*",
         "symplify/phpstan-rules": "*",
         "thecodingmachine/phpstan-safe-rule": "^1.2",
         "vimeo/psalm": "^5.17"
@@ -82,4 +89,5 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true
+
 }
