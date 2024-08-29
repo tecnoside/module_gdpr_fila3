@@ -7,22 +7,6 @@ namespace Modules\Gdpr\Models;
 use Modules\User\Models\BaseProfile as UserBaseProfile;
 
 /**
-<<<<<<< HEAD
- * @property int                             $id
- * @property string|null                     $type
- * @property string|null                     $first_name
- * @property string|null                     $last_name
- * @property string|null                     $full_name
- * @property string|null                     $email
- * @property \Illuminate\Support\Carbon|null $created_at
- * @property \Illuminate\Support\Carbon|null $updated_at
- * @property string|null                     $user_id
- * @property string|null                     $updated_by
- * @property string|null                     $created_by
- * @property \Illuminate\Support\Carbon|null $deleted_at
- * @property string|null                     $deleted_by
- * @property int                             $is_active
-=======
  * @property int                                                                                                           $id
  * @property string|null                                                                                                   $type
  * @property string|null                                                                                                   $first_name
@@ -59,18 +43,13 @@ use Modules\User\Models\BaseProfile as UserBaseProfile;
  * @property int|null                                                                                                      $teams_count
  * @property \Modules\Xot\Contracts\UserContract|null                                                                      $user
  * @property string|null                                                                                                   $user_name
->>>>>>> origin/dev
  *
  * @method static \Modules\Gdpr\Database\Factories\ProfileFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newQuery()
-<<<<<<< HEAD
- * @method static \Illuminate\Database\Eloquent\Builder|Profile   query()
-=======
  * @method static Builder|BaseProfile                             permission($permissions, $without = false)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   query()
  * @method static Builder|BaseProfile                             role($roles, $guard = null, $without = false)
->>>>>>> origin/dev
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereCreatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereCreatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereDeletedAt($value)
@@ -85,22 +64,12 @@ use Modules\User\Models\BaseProfile as UserBaseProfile;
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUpdatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUserId($value)
-<<<<<<< HEAD
- *
- * @property string|null                                                                                                                       $gender
- * @property string|null                                                                                                                       $phone
- * @property string|null                                                                                                                       $tax_code
- * @property string|null                                                                                                                       $vat_number
- * @property \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Spatie\MediaLibrary\MediaCollections\Models\Media> $media
- * @property int|null                                                                                                                          $media_count
-=======
  * @method static Builder|BaseProfile                             withExtraAttributes()
  * @method static Builder|BaseProfile                             withoutPermission($permissions)
  * @method static Builder|BaseProfile                             withoutRole($roles, $guard = null)
  *
  * @property string|null $deleted_by
  * @property int         $is_active
->>>>>>> origin/dev
  *
  * @method static \Modules\Gdpr\Database\Factories\ProfileFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newModelQuery()
