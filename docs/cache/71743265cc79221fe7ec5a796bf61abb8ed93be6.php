@@ -14,4 +14,4 @@
 </div>
 <?php $__env->stopSection(); ?>
 
-<?php echo $__env->make('_layouts.master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH F:\var\www\_bases\base_multi_fila3\laravel\Modules\Gdpr\docs/source\404.blade.php ENDPATH**/ ?>
+<?php echo $__env->make('_layouts.master', Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH F:\var\www\_bases\base_multi_fila3\laravel\Modules\Gdpr\docs/source\404.blade.php ENDPATH**/ ?>
