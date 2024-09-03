@@ -10,11 +10,11 @@ namespace Modules\Gdpr\Models;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Support\Facades\Crypt;
+use Modules\Xot\Contracts\ProfileContract;
 
 use function Safe\json_encode;
 
 /**
- * <<<<<<< HEAD
  * Modules\Gdpr\Models\Event.
  *
  * @property string                          $id
@@ -51,7 +51,6 @@ use function Safe\json_encode;
  * @method static \Illuminate\Database\Eloquent\Builder|Event whereDeletedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event whereDeletedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event whereUpdatedBy($value)
- *                                                                                   =======
  *
  * @property string                          $id
  * @property string|null                     $treatment_id
@@ -86,9 +85,8 @@ use function Safe\json_encode;
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereUpdatedBy($value)
  *
- * @property \Modules\Idoteca\Models\Profile|null $creator
- * @property \Modules\Idoteca\Models\Profile|null $updater
- *                                                         >>>>>>> 73bcf753ed2e2b5dcdf99b2cf1cf41c38ba83408
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
  *
  * @mixin \Eloquent
  */

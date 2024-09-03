@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace Modules\Gdpr\Models;
 
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
+use Modules\Xot\Contracts\ProfileContract;
 
 /**
- * <<<<<<< HEAD
  * Modules\Gdpr\Models\Treatment.
  *
  * @property string                          $id
@@ -27,7 +27,6 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  * @property string|null                     $documentVersion
  * @property string|null                     $documentUrl
  * @property int                             $weight
- *                                                            >>>>>>> 73bcf753ed2e2b5dcdf99b2cf1cf41c38ba83408
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property string|null                     $updated_by
@@ -35,7 +34,6 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  * @property \Illuminate\Support\Carbon|null $deleted_at
  *
  * @method static \Modules\Gdpr\Database\Factories\TreatmentFactory factory($count = null, $state = [])
- *                                                                                                      <<<<<<< HEAD
  * @method static Builder|Treatment                                 newModelQuery()
  * @method static Builder|Treatment                                 newQuery()
  * @method static Builder|Treatment                                 query()
@@ -68,7 +66,6 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  * @method static Builder|Treatment                               whereRequired($value)
  * @method static Builder|Treatment                               whereUpdatedAt($value)
  * @method static Builder|Treatment                               whereWeight($value)
- *                                                                                             =======
  * @method static Builder|Treatment                               newModelQuery()
  * @method static Builder|Treatment                               newQuery()
  * @method static Builder|Treatment                               query()
@@ -95,14 +92,12 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  * @method static Builder|Treatment                               whereRequired($value)
  * @method static Builder|Treatment                               whereUpdatedAt($value)
  * @method static Builder|Treatment                               whereWeight($value)
- *                                                                                             >>>>>>> 73bcf753ed2e2b5dcdf99b2cf1cf41c38ba83408
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment whereCreatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment whereDeletedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment whereDeletedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment whereUpdatedBy($value)
  *
  * @property string|null $deleted_by
- *                                   >>>>>>> origin/dev
  *
  * @method static \Modules\Gdpr\Database\Factories\TreatmentFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment   newModelQuery()
@@ -123,8 +118,8 @@ use Illuminate\Database\Eloquent\Concerns\HasUuids;
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment   whereUpdatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment   whereWeight($value)
  *
- * @property \Modules\Idoteca\Models\Profile|null $creator
- * @property \Modules\Idoteca\Models\Profile|null $updater
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
  *
  * @mixin \Eloquent
  */

@@ -6,19 +6,17 @@ namespace Modules\Gdpr\Models;
 
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Modules\Xot\Contracts\ProfileContract;
 
 /**
- * <<<<<<< HEAD
  * Modules\Gdpr\Models\Consent.
  *
  * @property string                          $id
  * @property string                          $treatment_id
  * @property string                          $subject_id
- *                                                         =======
  * @property string                          $id
  * @property string                          $treatment_id
  * @property string                          $subject_id
- *                                                         >>>>>>> 73bcf753ed2e2b5dcdf99b2cf1cf41c38ba83408
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property string|null                     $updated_by
@@ -65,8 +63,8 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedBy($value)
  *
- * @property \Modules\Idoteca\Models\Profile|null $creator
- * @property \Modules\Idoteca\Models\Profile|null $updater
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
  *
  * @mixin \Eloquent
  */
