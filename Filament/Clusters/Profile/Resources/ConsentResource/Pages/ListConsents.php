@@ -14,23 +14,9 @@ use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
 
 class ListConsents extends ListRecords
 {
-    protected static string $resource = ConsentResource::class;
-
     public TableLayoutEnum $layoutView = TableLayoutEnum::GRID;
 
-    protected function getTableHeaderActions(): array
-    {
-        return [
-            TableLayoutToggleTableAction::make(),
-        ];
-    }
-
-    protected function getHeaderActions(): array
-    {
-        return [
-            Actions\CreateAction::make(),
-        ];
-    }
+    protected static string $resource = ConsentResource::class;
 
     public function table(Table $table): Table
     {
@@ -49,5 +35,19 @@ class ListConsents extends ListRecords
             ])
             ->emptyStateActions([
             ]);
+    }
+
+    protected function getTableHeaderActions(): array
+    {
+        return [
+            TableLayoutToggleTableAction::make(),
+        ];
+    }
+
+    protected function getHeaderActions(): array
+    {
+        return [
+            Actions\CreateAction::make(),
+        ];
     }
 }

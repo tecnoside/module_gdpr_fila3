@@ -12,9 +12,9 @@ use Modules\User\Filament\Resources\BaseProfileResource\Pages\ListProfiles as Us
 
 class ListProfiles extends UserListProfiles
 {
-    protected static string $resource = ProfileResource::class;
-
     public TableLayoutEnum $layoutView = TableLayoutEnum::GRID;
+
+    protected static string $resource = ProfileResource::class;
 
     protected function getTableHeaderActions(): array
     {

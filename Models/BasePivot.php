@@ -37,6 +37,9 @@ abstract class BasePivot extends Pivot
     /** @var list<string> */
     protected $appends = [];
 
+    /** @var string */
+    protected $primaryKey = 'id';
+
     /** @return array<string, string> */
     protected function casts(): array
     {
@@ -51,7 +54,4 @@ abstract class BasePivot extends Pivot
             'deleted_by' => 'string',
         ];
     }
-
-    /** @var string */
-    protected $primaryKey = 'id';
 }

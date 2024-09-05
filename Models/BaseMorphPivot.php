@@ -60,6 +60,16 @@ abstract class BaseMorphPivot extends MorphPivot
         'note',
     ];
 
+    /**
+     * Create a new factory instance for the model.
+     *
+     * @return Factory
+     */
+    protected static function newFactory()
+    {
+        return app(\Modules\Xot\Actions\Factory\GetFactoryAction::class)->execute(static::class);
+    }
+
     /** @return array<string, string> */
     protected function casts(): array
     {
@@ -72,15 +82,5 @@ abstract class BaseMorphPivot extends MorphPivot
             'created_by' => 'string',
             'deleted_by' => 'string',
         ];
-    }
-
-    /**
-     * Create a new factory instance for the model.
-     *
-     * @return Factory
-     */
-    protected static function newFactory()
-    {
-        return app(\Modules\Xot\Actions\Factory\GetFactoryAction::class)->execute(static::class);
     }
 }

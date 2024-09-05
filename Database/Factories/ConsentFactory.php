@@ -8,12 +8,15 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Database\Eloquent\Model;
 use Modules\Gdpr\Models\Consent;
 
+/**
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\Modules\Gdpr\Models\Consent>
+ */
 class ConsentFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
-     * @var class-string<Model>
+     * @var class-string<Consent>
      */
     protected $model = Consent::class;
 

@@ -12,9 +12,9 @@ use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
 
 class ListConsents extends ListRecords
 {
-    protected static string $resource = ConsentResource::class;
-
     public TableLayoutEnum $layoutView = TableLayoutEnum::GRID;
+
+    protected static string $resource = ConsentResource::class;
 
     protected function getTableHeaderActions(): array
     {

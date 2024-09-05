@@ -5,14 +5,18 @@ declare(strict_types=1);
 namespace Modules\Gdpr\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
+use Illuminate\Database\Eloquent\Model;
 use Modules\Gdpr\Models\Profile;
 
+/**
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\Modules\Gdpr\Models\Profile>
+ */
 class ProfileFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
-     * @var class-string<\Illuminate\Database\Eloquent\Model>
+     * @var class-string<Profile>
      */
     protected $model = Profile::class;
 
@@ -24,11 +28,11 @@ class ProfileFactory extends Factory
     public function definition()
     {
         return [
-            'id' => $this->faker->word,
-            'user_id' => $this->faker->unique()->randomNumber(),
-            'phone' => $this->faker->phoneNumber,
-            'email' => $this->faker->email,
-            'bio' => $this->faker->text,
+            'id' => fake()->word,
+            'user_id' => fake()->unique()->randomNumber(),
+            'phone' => fake()->phoneNumber,
+            'email' => fake()->email,
+            'bio' => fake()->text,
         ];
     }
 }
