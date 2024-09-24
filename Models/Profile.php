@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Gdpr\Models;
 
-use Modules\User\Models\BaseProfile as UserBaseProfile;
+use Modules\User\Models\BaseProfile;
 
 /**
  * @property int                                                                                                           $id
@@ -70,9 +70,9 @@ use Modules\User\Models\BaseProfile as UserBaseProfile;
  * @method static \Modules\Gdpr\Database\Factories\ProfileFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newQuery()
- * @method static Builder|BaseProfile                             permission($permissions, $without = false)
+ * @method static \Illuminate\Database\Eloquent\Builder|BaseProfile                             permission($permissions, $without = false)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   query()
- * @method static Builder|BaseProfile                             role($roles, $guard = null, $without = false)
+ * @method static \Illuminate\Database\Eloquent\Builder|BaseProfile                             role($roles, $guard = null, $without = false)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereCreatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereCreatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereDeletedAt($value)
@@ -87,9 +87,9 @@ use Modules\User\Models\BaseProfile as UserBaseProfile;
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUpdatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUserId($value)
- * @method static Builder|BaseProfile                             withExtraAttributes()
- * @method static Builder|BaseProfile                             withoutPermission($permissions)
- * @method static Builder|BaseProfile                             withoutRole($roles, $guard = null)
+ * @method static \Illuminate\Database\Eloquent\Builder|BaseProfile                             withExtraAttributes()
+ * @method static \Illuminate\Database\Eloquent\Builder|BaseProfile                             withoutPermission($permissions)
+ * @method static \Illuminate\Database\Eloquent\Builder|BaseProfile                             withoutRole($roles, $guard = null)
  *
  * @property string|null $deleted_by
  * @property int         $is_active
@@ -132,7 +132,7 @@ use Modules\User\Models\BaseProfile as UserBaseProfile;
  *
  * @mixin \Eloquent
  */
-class Profile extends UserBaseProfile
+class Profile extends BaseProfile
 {
     /** @var string */
     protected $connection = 'gdpr';
