@@ -46,10 +46,18 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static Builder|Treatment                                 whereRequired($value)
  * @method static Builder|Treatment                                 whereUpdatedAt($value)
  * @method static Builder|Treatment                                 whereWeight($value)
+<<<<<<< HEAD
+=======
+ *
+>>>>>>> bfe6ee60e73aa142176f4958ebdd50475c98e8ac
  * @property string|null                     $updated_by
  * @property string|null                     $created_by
  * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property string|null                     $deleted_by
+<<<<<<< HEAD
+=======
+ *
+>>>>>>> bfe6ee60e73aa142176f4958ebdd50475c98e8ac
  * @method static Builder|Treatment                               newModelQuery()
  * @method static Builder|Treatment                               newQuery()
  * @method static Builder|Treatment                               query()
@@ -112,6 +120,10 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment   whereUpdatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment   whereWeight($value)
+<<<<<<< HEAD
+=======
+ *
+>>>>>>> bfe6ee60e73aa142176f4958ebdd50475c98e8ac
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @mixin \Eloquent
