@@ -12,7 +12,7 @@ use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
 
 class ListTreatments extends ListRecords
 {
-    public TableLayoutEnum $layoutView = TableLayoutEnum::GRID;
+    public TableLayoutEnum $layoutView = TableLayoutEnum::LIST;
 
     protected static string $resource = TreatmentResource::class;
 

@@ -12,7 +12,7 @@ use Modules\User\Filament\Resources\BaseProfileResource\Pages\ListProfiles as Us
 
 class ListProfiles extends UserListProfiles
 {
-    public TableLayoutEnum $layoutView = TableLayoutEnum::GRID;
+    public TableLayoutEnum $layoutView = TableLayoutEnum::LIST;
 
     protected static string $resource = ProfileResource::class;
 
