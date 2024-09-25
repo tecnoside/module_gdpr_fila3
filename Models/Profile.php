@@ -93,6 +93,7 @@ use Modules\User\Models\BaseProfile;
  * @method static Builder|BaseProfile                             withExtraAttributes()
  * @method static Builder|BaseProfile                             withoutPermission($permissions)
  * @method static Builder|BaseProfile                             withoutRole($roles, $guard = null)
+ *
  * @property string|null $deleted_by
  * @property int         $is_active
  *
