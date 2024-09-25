@@ -69,6 +69,7 @@ use Modules\User\Models\BaseProfile;
  * @property int|null                                                                                                      $teams_count
  * @property \Modules\Xot\Contracts\UserContract|null                                                                      $user
  * @property string|null                                                                                                   $user_name
+ *
  * @method static \Modules\Gdpr\Database\Factories\ProfileFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newQuery()
@@ -147,15 +148,21 @@ use Modules\User\Models\BaseProfile;
  * @property string|null                                 $slug
  * @property \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property \Modules\Xot\Contracts\ProfileContract|null $updater
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|Profile whereCredits($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile whereExtra($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile whereSlug($value)
+ *
  * @property int $oauth_enable
  * @property int $credentials_enable
+ *
  * @method static \Illuminate\Database\Eloquent\Builder|Profile whereCredentialsEnable($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile whereOauthEnable($value)
+ *
  * @property string $uuid
+ *
  * @method static Builder|Profile whereUuid($value)
+ *
  * @mixin \Eloquent
  */
 class Profile extends BaseProfile
