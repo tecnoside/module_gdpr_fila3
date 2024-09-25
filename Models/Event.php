@@ -27,10 +27,6 @@ use function Safe\json_encode;
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property Consent|null                    $consent
- *                                                         <<<<<<< HEAD
- *                                                         =======
- *
- * >>>>>>> bfe6ee60e73aa142176f4958ebdd50475c98e8ac
  *
  * @method static \Modules\Gdpr\Database\Factories\EventFactory factory($count = null, $state = [])
  * @method static Builder|Event                                 newModelQuery()
@@ -45,28 +41,16 @@ use function Safe\json_encode;
  * @method static Builder|Event                                 whereSubjectId($value)
  * @method static Builder|Event                                 whereTreatmentId($value)
  * @method static Builder|Event                                 whereUpdatedAt($value)
- *                                                                                                  <<<<<<< HEAD
- *                                                                                                  =======
- *
- * >>>>>>> bfe6ee60e73aa142176f4958ebdd50475c98e8ac
  *
  * @property string|null                     $updated_by
  * @property string|null                     $created_by
  * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property string|null                     $deleted_by
- *                                                       <<<<<<< HEAD
- *                                                       =======
- *
- * >>>>>>> bfe6ee60e73aa142176f4958ebdd50475c98e8ac
  *
  * @method static \Illuminate\Database\Eloquent\Builder|Event whereCreatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event whereDeletedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event whereDeletedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event whereUpdatedBy($value)
- *                                                                                   <<<<<<< HEAD
- *                                                                                   =======
- *
- * >>>>>>> bfe6ee60e73aa142176f4958ebdd50475c98e8ac
  *
  * @property string                          $id
  * @property string|null                     $treatment_id
@@ -82,11 +66,6 @@ use function Safe\json_encode;
  * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property string|null                     $deleted_by
  * @property Consent|null                    $consent
- *                                                         <<<<<<< HEAD
- *                                                         =======
- *
- * >>>>>>> bfe6ee60e73aa142176f4958ebdd50475c98e8ac
- *
  * @method static \Modules\Gdpr\Database\Factories\EventFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Event   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Event   newQuery()
@@ -104,10 +83,6 @@ use function Safe\json_encode;
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereTreatmentId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereUpdatedBy($value)
- *                                                                                                  <<<<<<< HEAD
- *                                                                                                  =======
- *
- * >>>>>>> bfe6ee60e73aa142176f4958ebdd50475c98e8ac
  *
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater

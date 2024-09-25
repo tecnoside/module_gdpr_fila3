@@ -4,17 +4,12 @@ declare(strict_types=1);
 
 namespace Modules\Gdpr\Models;
 
-<<<<<<< HEAD
 use Illuminate\Database\Eloquent\Builder;
 use Modules\User\Models\BaseProfile;
 
 /**
- * 
+ * Modules\Gdpr\Models\Profile.
  *
-=======
-use Modules\User\Models\BaseProfile;
-
-/**
  * @property int                                                                                                           $id
  * @property string|null                                                                                                   $type
  * @property string|null                                                                                                   $first_name
@@ -38,7 +33,6 @@ use Modules\User\Models\BaseProfile;
  * @property string|null                                                                                                   $deleted_by
  * @property int                                                                                                           $is_active
  *                                                                                                                                                    =======
->>>>>>> bfe6ee60e73aa142176f4958ebdd50475c98e8ac
  * @property int                                                                                                           $id
  * @property string|null                                                                                                   $type
  * @property string|null                                                                                                   $first_name
@@ -75,7 +69,6 @@ use Modules\User\Models\BaseProfile;
  * @property int|null                                                                                                      $teams_count
  * @property \Modules\Xot\Contracts\UserContract|null                                                                      $user
  * @property string|null                                                                                                   $user_name
-<<<<<<< HEAD
  * @method static \Modules\Gdpr\Database\Factories\ProfileFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newQuery()
@@ -101,7 +94,6 @@ use Modules\User\Models\BaseProfile;
  * @method static Builder|BaseProfile                             withoutRole($roles, $guard = null)
  * @property string|null $deleted_by
  * @property int         $is_active
-=======
  *
  * @method static \Modules\Gdpr\Database\Factories\ProfileFactory   factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Profile     newModelQuery()
@@ -130,7 +122,6 @@ use Modules\User\Models\BaseProfile;
  * @property string|null $deleted_by
  * @property int         $is_active
  *
->>>>>>> bfe6ee60e73aa142176f4958ebdd50475c98e8ac
  * @method static \Modules\Gdpr\Database\Factories\ProfileFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   newQuery()
@@ -149,10 +140,7 @@ use Modules\User\Models\BaseProfile;
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUpdatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Profile   whereUserId($value)
-<<<<<<< HEAD
-=======
  *
->>>>>>> bfe6ee60e73aa142176f4958ebdd50475c98e8ac
  * @property \Modules\User\Models\DeviceUser             $pivot
  * @property \Modules\User\Models\Membership             $membership
  * @property string                                      $credits
