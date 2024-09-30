@@ -55,59 +55,59 @@ class ProfileResource extends XotBaseResource
             ]);
     }
 
-    public static function table(Table $table): Table
-    {
-        return $table
-            ->columns([
-                Tables\Columns\TextColumn::make('id')
-                    ->label('ID')
-                    ->searchable(),
-                Tables\Columns\TextColumn::make('type')
-                    ->searchable(),
-                Tables\Columns\TextColumn::make('first_name')
-                    ->searchable(),
-                Tables\Columns\TextColumn::make('last_name')
-                    ->searchable(),
-                Tables\Columns\TextColumn::make('full_name')
-                    ->searchable(),
-                Tables\Columns\TextColumn::make('email')
-                    ->searchable(),
-                Tables\Columns\TextColumn::make('created_at')
-                    ->dateTime()
-                    ->sortable()
-                    ->toggleable(isToggledHiddenByDefault: true),
-                Tables\Columns\TextColumn::make('updated_at')
-                    ->dateTime()
-                    ->sortable()
-                    ->toggleable(isToggledHiddenByDefault: true),
-                Tables\Columns\TextColumn::make('user_id')
-                    ->searchable(),
-                Tables\Columns\TextColumn::make('updated_by')
-                    ->searchable(),
-                Tables\Columns\TextColumn::make('created_by')
-                    ->searchable(),
-                Tables\Columns\TextColumn::make('deleted_at')
-                    ->dateTime()
-                    ->sortable()
-                    ->toggleable(isToggledHiddenByDefault: true),
-                Tables\Columns\TextColumn::make('deleted_by')
-                    ->searchable(),
-                Tables\Columns\IconColumn::make('is_active')
-                    ->boolean(),
-            ])
-            ->filters([
-            ])
-            ->actions([
-                Tables\Actions\EditAction::make(),
-            ])
-            ->bulkActions([
-                Tables\Actions\BulkActionGroup::make([
-                    Tables\Actions\DeleteBulkAction::make(),
-                ]),
-            ])
-            ->emptyStateActions([
-            ]);
-    }
+    // public static function table(Table $table): Table
+    // {
+    //     return $table
+    //         ->columns([
+    //             Tables\Columns\TextColumn::make('id')
+    //                 ->label('ID')
+    //                 ->searchable(),
+    //             Tables\Columns\TextColumn::make('type')
+    //                 ->searchable(),
+    //             Tables\Columns\TextColumn::make('first_name')
+    //                 ->searchable(),
+    //             Tables\Columns\TextColumn::make('last_name')
+    //                 ->searchable(),
+    //             Tables\Columns\TextColumn::make('full_name')
+    //                 ->searchable(),
+    //             Tables\Columns\TextColumn::make('email')
+    //                 ->searchable(),
+    //             Tables\Columns\TextColumn::make('created_at')
+    //                 ->dateTime()
+    //                 ->sortable()
+    //                 ->toggleable(isToggledHiddenByDefault: true),
+    //             Tables\Columns\TextColumn::make('updated_at')
+    //                 ->dateTime()
+    //                 ->sortable()
+    //                 ->toggleable(isToggledHiddenByDefault: true),
+    //             Tables\Columns\TextColumn::make('user_id')
+    //                 ->searchable(),
+    //             Tables\Columns\TextColumn::make('updated_by')
+    //                 ->searchable(),
+    //             Tables\Columns\TextColumn::make('created_by')
+    //                 ->searchable(),
+    //             Tables\Columns\TextColumn::make('deleted_at')
+    //                 ->dateTime()
+    //                 ->sortable()
+    //                 ->toggleable(isToggledHiddenByDefault: true),
+    //             Tables\Columns\TextColumn::make('deleted_by')
+    //                 ->searchable(),
+    //             Tables\Columns\IconColumn::make('is_active')
+    //                 ->boolean(),
+    //         ])
+    //         ->filters([
+    //         ])
+    //         ->actions([
+    //             Tables\Actions\EditAction::make(),
+    //         ])
+    //         ->bulkActions([
+    //             Tables\Actions\BulkActionGroup::make([
+    //                 Tables\Actions\DeleteBulkAction::make(),
+    //             ]),
+    //         ])
+    //         ->emptyStateActions([
+    //         ]);
+    // }
 
     public static function getRelations(): array
     {

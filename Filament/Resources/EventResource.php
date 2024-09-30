@@ -44,47 +44,47 @@ class EventResource extends XotBaseResource
             );
     }
 
-    public static function table(Table $table): Table
-    {
-        return $table
-            ->columns(
-                [
-                    Tables\Columns\TextColumn::make('id')
-                        ->label('ID')
-                        ->searchable(),
-                    Tables\Columns\TextColumn::make('treatment_id')
-                        ->searchable(),
-                    Tables\Columns\TextColumn::make('consent.id')
-                        ->searchable(),
-                    Tables\Columns\TextColumn::make('subject_id')
-                        ->searchable(),
-                    Tables\Columns\TextColumn::make('ip')
-                        ->searchable(),
-                    Tables\Columns\TextColumn::make('action')
-                        ->searchable(),
-                    Tables\Columns\TextColumn::make('created_at')
-                        ->dateTime()
-                        ->sortable()
-                        ->toggleable(isToggledHiddenByDefault: true),
-                    Tables\Columns\TextColumn::make('updated_at')
-                        ->dateTime()
-                        ->sortable()
-                        ->toggleable(isToggledHiddenByDefault: true),
-                ]
-            )
-            ->filters([
-            ])
-            ->actions([
-                Tables\Actions\EditAction::make(),
-            ])
-            ->bulkActions([
-                Tables\Actions\BulkActionGroup::make([
-                    Tables\Actions\DeleteBulkAction::make(),
-                ]),
-            ])
-            ->emptyStateActions([
-            ]);
-    }
+    // public static function table(Table $table): Table
+    // {
+    //     return $table
+    //         ->columns(
+    //             [
+    //                 Tables\Columns\TextColumn::make('id')
+    //                     ->label('ID')
+    //                     ->searchable(),
+    //                 Tables\Columns\TextColumn::make('treatment_id')
+    //                     ->searchable(),
+    //                 Tables\Columns\TextColumn::make('consent.id')
+    //                     ->searchable(),
+    //                 Tables\Columns\TextColumn::make('subject_id')
+    //                     ->searchable(),
+    //                 Tables\Columns\TextColumn::make('ip')
+    //                     ->searchable(),
+    //                 Tables\Columns\TextColumn::make('action')
+    //                     ->searchable(),
+    //                 Tables\Columns\TextColumn::make('created_at')
+    //                     ->dateTime()
+    //                     ->sortable()
+    //                     ->toggleable(isToggledHiddenByDefault: true),
+    //                 Tables\Columns\TextColumn::make('updated_at')
+    //                     ->dateTime()
+    //                     ->sortable()
+    //                     ->toggleable(isToggledHiddenByDefault: true),
+    //             ]
+    //         )
+    //         ->filters([
+    //         ])
+    //         ->actions([
+    //             Tables\Actions\EditAction::make(),
+    //         ])
+    //         ->bulkActions([
+    //             Tables\Actions\BulkActionGroup::make([
+    //                 Tables\Actions\DeleteBulkAction::make(),
+    //             ]),
+    //         ])
+    //         ->emptyStateActions([
+    //         ]);
+    // }
 
     public static function getRelations(): array
     {
