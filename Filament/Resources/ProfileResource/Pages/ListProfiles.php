@@ -4,15 +4,17 @@ declare(strict_types=1);
 
 namespace Modules\Gdpr\Filament\Resources\ProfileResource\Pages;
 
-use Filament\Actions;
 use Filament\Tables;
-use Filament\Tables\Enums\ActionsPosition;
-use Filament\Tables\Enums\FiltersLayout;
+use Filament\Actions;
 use Filament\Tables\Table;
-use Modules\Gdpr\Filament\Resources\ProfileResource;
 use Modules\UI\Enums\TableLayoutEnum;
-use Modules\User\Filament\Resources\BaseProfileResource\Pages\ListProfiles as UserListProfiles;
+use Filament\Tables\Actions\EditAction;
+use Filament\Tables\Enums\FiltersLayout;
+use Filament\Tables\Enums\ActionsPosition;
 use Modules\Xot\Filament\Traits\TransTrait;
+use Filament\Tables\Actions\DeleteBulkAction;
+use Modules\Gdpr\Filament\Resources\ProfileResource;
+use Modules\User\Filament\Resources\BaseProfileResource\Pages\ListProfiles as UserListProfiles;
 
 class ListProfiles extends UserListProfiles
 {
