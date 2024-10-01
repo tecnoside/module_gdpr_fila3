@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\Builder;
 use Modules\User\Models\BaseProfile;
 
 /**
-<<<<<<< HEAD
  * Modules\Gdpr\Models\Profile.
  *
  * @property int                                                                                                           $id
@@ -60,34 +59,6 @@ use Modules\User\Models\BaseProfile;
  * @property int|null                                                                                                      $mobile_device_users_count
  * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Device>                                    $mobileDevices
  * @property int|null                                                                                                      $mobile_devices_count
-=======
- * @property int $id
- * @property string|null $type
- * @property string|null $first_name
- * @property string|null $last_name
- * @property string|null $full_name
- * @property string|null $email
- * @property \Illuminate\Support\Carbon|null $created_at
- * @property \Illuminate\Support\Carbon|null $updated_at
- * @property string|null $user_id
- * @property string|null $updated_by
- * @property string|null $created_by
- * @property \Illuminate\Support\Carbon|null $deleted_at
- * @property string|null $deleted_by
- * @property bool $is_active
- * @property \Spatie\SchemalessAttributes\SchemalessAttributes $extra
- * @property string $avatar
- * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\DeviceUser> $deviceUsers
- * @property int|null $device_users_count
- * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Device> $devices
- * @property int|null $devices_count
- * @property \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection<int, \Modules\Media\Models\Media> $media
- * @property int|null $media_count
- * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\DeviceUser> $mobileDeviceUsers
- * @property int|null $mobile_device_users_count
- * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Device> $mobileDevices
- * @property int|null $mobile_devices_count
->>>>>>> origin/master
  * @property \Illuminate\Notifications\DatabaseNotificationCollection<int, \Illuminate\Notifications\DatabaseNotification> $notifications
  * @property int|null $notifications_count
  * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Permission> $permissions
