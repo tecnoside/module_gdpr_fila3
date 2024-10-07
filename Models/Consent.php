@@ -24,6 +24,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property \Illuminate\Support\Carbon|null $deleted_at
  * @property string|null                     $deleted_by
  * @property Treatment|null                  $treatment
+ *
  * @method static \Modules\Gdpr\Database\Factories\ConsentFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   newQuery()
@@ -37,7 +38,9 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereTreatmentId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedBy($value)
+ *
  * @property Treatment|null $treatment
+ *
  * @method static \Modules\Gdpr\Database\Factories\ConsentFactory factory($count = null, $state = [])
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   newQuery()
@@ -59,8 +62,10 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereTreatmentId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedBy($value)
+ *
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+ *
  * @mixin \Eloquent
  */
 class Consent extends BaseModel
