@@ -112,8 +112,4 @@ class ListProfiles extends UserListProfiles
             DeleteBulkAction::make(),
         ];
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> origin/dev

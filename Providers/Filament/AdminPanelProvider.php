@@ -4,20 +4,15 @@ declare(strict_types=1);
 
 namespace Modules\Gdpr\Providers\Filament;
 
-<<<<<<< HEAD
-=======
 use Filament\Panel;
 use Filament\Support\Assets\Css;
 use Filament\Support\Assets\Js;
 use Filament\Support\Facades\FilamentAsset;
->>>>>>> origin/dev
 use Modules\Xot\Providers\Filament\XotBasePanelProvider;
 
 class AdminPanelProvider extends XotBasePanelProvider
 {
     protected string $module = 'Gdpr';
-<<<<<<< HEAD
-=======
 
     public function panel(Panel $panel): Panel
     {
@@ -28,5 +23,4 @@ class AdminPanelProvider extends XotBasePanelProvider
 
         return parent::panel($panel);
     }
->>>>>>> origin/dev
 }

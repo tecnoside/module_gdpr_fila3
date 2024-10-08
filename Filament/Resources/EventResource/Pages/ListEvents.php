@@ -98,8 +98,4 @@ class ListEvents extends ListRecords
             DeleteBulkAction::make(),
         ];
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> origin/dev
