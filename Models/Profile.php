@@ -169,4 +169,8 @@ class Profile extends BaseProfile
 {
     /** @var string */
     protected $connection = 'gdpr';
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/dev

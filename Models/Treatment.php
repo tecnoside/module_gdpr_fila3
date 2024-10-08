@@ -131,4 +131,8 @@ class Treatment extends BaseModel
     public $incrementing = false;
 
     protected $fillable = [''];
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> origin/dev
