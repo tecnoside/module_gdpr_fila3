@@ -30,16 +30,17 @@ Follow these steps to install the GDPR Module Fila3:
 - GDPR compliance reporting
 
 ## Badges
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
-![Code Coverage](https://img.shields.io/badge/coverage-80%25-brightgreen.svg)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/laraxot/module_gdpr_fila3/CI)
+![GitHub Release](https://img.shields.io/github/v/release/laraxot/module_gdpr_fila3)
+![GitHub License](https://img.shields.io/github/license/laraxot/module_gdpr_fila3)
+
 
 ## License
 This project is licensed under the MIT License. For more details, refer to the `LICENSE.md` file.
 
 ## Authors
-- [Author Name 1](https://github.com/username1)
-- [Author Name 2](https://github.com/username2)
+- [Marco Sottana](https://github.com/marco76tv)
+
 
 ## Contributing
 If you want to contribute to the project, please send a pull request or open an issue to discuss your ideas.
