@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 return [
     'alert_accept' => 'Accetta tutti i cookie',
     'alert_essentials_only' => 'Accetta solo i cookie necessari',
@@ -20,5 +22,5 @@ return [
     'settings_close' => 'Chiudi',
     'settings_save' => 'Salva la mia selezione',
     'settings_title' => 'Impostazioni cookie',
-    'settings_text' => 'Il nostro sito web memorizza quattro tipi di cookie. In qualsiasi momento puoi scegliere quali cookie accettare e quali rifiutare. Puoi leggere di più su cosa sono i cookie e quali tipi di cookie memorizziamo nella nostra <a href=":policyUrl" target="_blank" class="underline hover:no-underline">Cookie Policy</a>.'
+    'settings_text' => 'Il nostro sito web memorizza quattro tipi di cookie. In qualsiasi momento puoi scegliere quali cookie accettare e quali rifiutare. Puoi leggere di più su cosa sono i cookie e quali tipi di cookie memorizziamo nella nostra <a href=":policyUrl" target="_blank" class="underline hover:no-underline">Cookie Policy</a>.',
 ];
