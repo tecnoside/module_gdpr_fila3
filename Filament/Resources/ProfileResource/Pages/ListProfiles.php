@@ -24,6 +24,13 @@ class ListProfiles extends UserListProfiles
 
     protected static string $resource = ProfileResource::class;
 
+    protected function getHeaderActions(): array
+    {
+        return [
+            Actions\CreateAction::make(),
+        ];
+    }
+
     public function table(Table $table): Table
     {
         return $table
@@ -103,13 +110,6 @@ class ListProfiles extends UserListProfiles
     {
         return [
             DeleteBulkAction::make(),
-        ];
-    }
-
-    protected function getHeaderActions(): array
-    {
-        return [
-            Actions\CreateAction::make(),
         ];
     }
 }

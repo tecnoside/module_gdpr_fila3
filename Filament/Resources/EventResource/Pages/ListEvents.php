@@ -44,6 +44,13 @@ class ListEvents extends ListRecords
             );
     }
 
+    protected function getHeaderActions(): array
+    {
+        return [
+            Actions\CreateAction::make(),
+        ];
+    }
+
     public function getGridTableColumns(): array
     {
         return [
@@ -89,13 +96,6 @@ class ListEvents extends ListRecords
     {
         return [
             DeleteBulkAction::make(),
-        ];
-    }
-
-    protected function getHeaderActions(): array
-    {
-        return [
-            Actions\CreateAction::make(),
         ];
     }
 }
