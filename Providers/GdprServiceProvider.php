@@ -23,9 +23,4 @@ class GdprServiceProvider extends XotBaseServiceProvider
     {
         parent::register();
     }
-
-    public function register(): void
-    {
-        parent::register();
-    }
 }
