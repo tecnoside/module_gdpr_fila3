@@ -22,4 +22,9 @@ class GdprServiceProvider extends XotBaseServiceProvider
 
         // $this->loadTranslationsFrom($lang_path, 'cookie-consent');
     }
+
+    public function register(): void
+    {
+        parent::register();
+    }
 }
