@@ -47,6 +47,7 @@
     ],
     "scripts": {
         "post-autoload-dump": [
+            "@php artisan vendor:publish --provider='Statikbe\CookieConsent\CookieConsentServiceProvider' --tag='cookie-public'",
             "@php vendor/bin/testbench package:discover --ansi"
         ],
         "post-update-cmd": [
