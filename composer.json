@@ -27,9 +27,6 @@
     "require": {
         "statikbe/laravel-cookie-consent": "*"
     },
-    "require-dev":{
-
-    },
     "repositories": [
         {
             "type": "path",
@@ -47,7 +44,7 @@
     ],
     "scripts": {
         "post-autoload-dump": [
-            "@php artisan vendor:publish --provider='Statikbe\CookieConsent\CookieConsentServiceProvider' --tag='cookie-public'",
+            "@php artisan vendor:publish --provider='Statikbe\\CookieConsent\\CookieConsentServiceProvider' --tag='cookie-public'",
             "@php vendor/bin/testbench package:discover --ansi"
         ],
         "post-update-cmd": [
