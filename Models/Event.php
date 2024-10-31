@@ -85,8 +85,8 @@ use function Safe\json_encode;
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereUpdatedBy($value)
  *
- * @property ProfileContract|null $creator
- * @property ProfileContract|null $updater
+ * @property \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property \Modules\Xot\Contracts\ProfileContract|null $updater
  *
  * @mixin \Eloquent
  */

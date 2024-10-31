@@ -63,8 +63,8 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Consent   whereUpdatedBy($value)
  *
- * @property ProfileContract|null $creator
- * @property ProfileContract|null $updater
+ * @property \Modules\Xot\Contracts\ProfileContract|null $creator
+ * @property \Modules\Xot\Contracts\ProfileContract|null $updater
  *
  * @mixin \Eloquent
  */
