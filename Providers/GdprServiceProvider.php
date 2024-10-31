@@ -6,6 +6,8 @@ namespace Modules\Gdpr\Providers;
 
 use Modules\Xot\Providers\XotBaseServiceProvider;
 
+use function Safe\realpath;
+
 class GdprServiceProvider extends XotBaseServiceProvider
 {
     public string $module_name = 'gdpr';
