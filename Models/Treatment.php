@@ -118,8 +118,8 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment   whereUpdatedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment   whereWeight($value)
  *
- * @property \Modules\Xot\Contracts\ProfileContract|null $creator
- * @property \Modules\Xot\Contracts\ProfileContract|null $updater
+ * @property ProfileContract|null $creator
+ * @property ProfileContract|null $updater
  *
  * @mixin \Eloquent
  */
