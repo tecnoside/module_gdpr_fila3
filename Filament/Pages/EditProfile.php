@@ -10,5 +10,5 @@ class EditProfile extends BaseEditProfile
 {
     protected static bool $shouldRegisterNavigation = true;
 
-    protected static bool $isDiscovered = false; // Route [filament.gdpr::admin.auth.profile] not defined.
+    protected static bool $isDiscovered = false;
 }
