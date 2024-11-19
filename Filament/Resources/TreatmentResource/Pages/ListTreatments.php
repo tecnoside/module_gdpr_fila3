@@ -5,15 +5,12 @@ declare(strict_types=1);
 namespace Modules\Gdpr\Filament\Resources\TreatmentResource\Pages;
 
 use Filament\Actions;
-use Filament\Resources\Pages\ListRecords;
 use Modules\Gdpr\Filament\Resources\TreatmentResource;
-use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
+use Modules\Xot\Filament\Pages\XotBaseListRecords;
 
-class ListTreatments extends ListRecords
+class ListTreatments extends XotBaseListRecords
 {
-    public TableLayoutEnum $layoutView = TableLayoutEnum::LIST;
-
     protected static string $resource = TreatmentResource::class;
 
     protected function getTableHeaderActions(): array

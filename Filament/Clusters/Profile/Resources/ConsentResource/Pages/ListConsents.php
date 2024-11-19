@@ -5,17 +5,14 @@ declare(strict_types=1);
 namespace Modules\Gdpr\Filament\Clusters\Profile\Resources\ConsentResource\Pages;
 
 use Filament\Actions;
-use Filament\Resources\Pages\ListRecords;
 use Filament\Tables;
 use Filament\Tables\Table;
 use Modules\Gdpr\Filament\Clusters\Profile\Resources\ConsentResource;
-use Modules\UI\Enums\TableLayoutEnum;
 use Modules\UI\Filament\Actions\Table\TableLayoutToggleTableAction;
+use Modules\Xot\Filament\Pages\XotBaseListRecords;
 
-class ListConsents extends ListRecords
+class ListConsents extends XotBaseListRecords
 {
-    public TableLayoutEnum $layoutView = TableLayoutEnum::LIST;
-
     protected static string $resource = ConsentResource::class;
 
     public function table(Table $table): Table
